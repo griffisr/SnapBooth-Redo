@@ -951,15 +951,14 @@ img.mfp-img {
   display: none;
 }
 
-.fl-node-58b5549543da3 > .fl-row-content-wrap {
-  background-color: #B8BAAE;
-  background-image: url("https://riley-griffis.s3.us-east-2.amazonaws.com/assets/testercover.jpg");
+.fl-node-58b5549543da3  {
+  background-color: #ffffff;
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/landing-background.jpg");
 
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left top;
   background-attachment: scroll;
-  background-size: cover;
-  border-color: #2bbac4;
+  background-size: contain;
   border-top-width: 1px;
   border-right-width: 0px;
   border-bottom-width: 1px;
@@ -1213,9 +1212,17 @@ img.mfp-img {
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
+
+/*FIX FOR LANDING PAGE BACKGROUND IMAGE AND TEXT OVERLAP ISSUE 25->35 */
 @media (max-width: 768px) {
   .fl-node-590842fbe3955 {
     padding-left: 25%;
+  }
+}
+
+@media (max-width: 455px) {
+  .fl-node-590842fbe3955 {
+    padding-left: 35%;
   }
 }
 
