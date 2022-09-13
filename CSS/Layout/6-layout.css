@@ -952,8 +952,10 @@ img.mfp-img {
 }
 
 .fl-node-58b5549543da3  {
-  background-color: #B8BAAE;
-  background-image: url("https://riley-griffis.s3.us-east-2.amazonaws.com/assets/testercover.jpg");
+  background-color: #ffffff;
+
+  /*  background-image: url("https://riley-griffis.s3.us-east-2.amazonaws.com/assets/testercover.jpg"); */
+
 
   background-repeat: no-repeat;
   background-position: center center;
@@ -1197,6 +1199,7 @@ img.mfp-img {
 .fl-node-590842fbe391a {
   width: 48.91%;
 }
+
 .fl-node-590842fbe3955 {
   width: 51.09%;
 }

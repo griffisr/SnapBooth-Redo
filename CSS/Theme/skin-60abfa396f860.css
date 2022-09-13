@@ -2980,3 +2980,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     line-height: 1.2;
   }
 }
+
+@media only screen and (max-width: 495px) {
+  #landing-logo{
+    width: 100%;
+  }
+}
+
