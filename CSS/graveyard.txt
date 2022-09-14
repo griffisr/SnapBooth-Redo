@@ -1,0 +1,70 @@
+<!--Top Section content-->
+<div class="fl-col-group fl-node-590842fbe3554 fl-col-group-nested" data-node="590842fbe3554">
+
+    <!--Left Side on top-->
+    <div class="fl-col fl-node-590842fbe391a fl-col-small" data-node="590842fbe391a" id="landing-cta">
+        <div class="fl-col-content fl-node-content">
+                 <!-------------------START----------------------1.2.1-->
+                 <div class="fl-module fl-module-rich-text fl-node-58dabc53d4df8" data-node="58dabc53d4df8">
+                    <div class="fl-module-content fl-node-content">
+                        <div class="fl-rich-text">
+                        <h1 title="Photo Booth Near Me">Snap Booth Photos: Custom Photo Booth Rentals</h1>
+                    <p>Looking for a photo booth near you? Snap Booth Photos is available for all types of events! Our photo booths are the perfect fit for weddings, school events, parties, corporate events and so much more! Snap Booth Photos proudly provides photo booth rentals to the MI-OH-IN tri-state area.</p>
+                    </div>
+                    </div>
+                </div>
+                <!-------------------END----------------------1.2.1-->
+
+
+                <div class="fl-module fl-module-pp-dual-button fl-node-58e97f2eb9860" data-node="58e97f2eb9860">
+                <div class="fl-module-content fl-node-content">
+                    <div class="pp-dual-button-content clearfix">
+                    <div class="pp-dual-button-inner">
+
+
+                        <!-------------------START----------------------1.2.2-->
+                        <!--Left Button-->
+                        <div class="pp-dual-button-1 pp-dual-button pp-button-effect-none">
+                        <!--- <a href="index.html" class="pp-button " role="button" target="_self" onclick="">
+                            <span class="pp-button-1-text">Client Galleries</span> -->
+                        </a>
+                        </div>
+                        <!-------------------END----------------------1.2.2-->
+
+
+                        <!--Button Spacer-->
+                        <div class="pp-spacer"></div>
+
+
+                        <!-------------------START----------------------1.2.3--->
+                        <!--Right Button-->
+                        <div class="pp-dual-button-2 pp-dual-button pp-button-effect-none">
+                        <a href="RatesAvailability.html" class="pp-button " role="button" target="_self" onclick="clickedCTA()" title=" ">
+                            <span class="pp-button-2-text">Find Out More</span>
+                        </a>
+                        </div>
+                        <!-------------------END----------------------1.2.3--->
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+        </div>
+    </div>
+
+
+    <!--Right side on top
+    <div class="fl-col fl-node-590842fbe3955 fl-col-small" data-node="590842fbe3955">
+        <div class="fl-col-content fl-node-content">
+
+        </div>
+    </div> -->
+
+
+    <div class="swiper-limit">
+        <!--Background Overlay Image-->
+
+
+    </div>
+
+</div>
