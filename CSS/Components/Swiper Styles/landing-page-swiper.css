@@ -74,13 +74,6 @@ html, body {
   }
 
 
-
-  .swiper-slide {
-
-  }
-
-
-
   .cta-button{
     background-color: #d6b074;
     color: #fff;
@@ -126,6 +119,10 @@ html, body {
 
   @media only screen and (max-width: 520px) {
 
+    #nav-logo{
+      margin-top: 2vh;
+      width: 30%;
+    }
 
     #gallery-top{
         height: 700px
@@ -158,18 +155,26 @@ html, body {
     #landing-nav{
         height: 0px;
     }
+    #landing-nav-wrap{
+      padding-left: 40px;
+      padding-right: 40px;
+      background-color: rgba(255, 255, 255, 0.376);
+    }
+
+    #nav-logo{
+      margin-top: 1vh;
+      width: 40%;
+    }
 
     #main-wrapper{
         overflow: hidden;
+        background-position: top;
     }
     #landing-cta{
         margin-top: 20vh;
         padding-bottom: 50px;
     }
-    #nav-logo{
-      margin-top: 2vh;
-      width: 50%;
-    }
+
 
     .cta-button{
 
