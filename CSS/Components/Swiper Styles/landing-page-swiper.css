@@ -54,7 +54,7 @@ html, body {
 
 
   .swiper-slide {
-    background-size:contain;
+    background-size:cover;
     background-position: center;
     width: 98vw;
     overflow: hidden;

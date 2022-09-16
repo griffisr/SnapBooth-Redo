@@ -64,9 +64,8 @@ img {
 }
 
 .card {
-  background-color: #8e9fa922;
+  background-color: #ffffff22;
   border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -102,20 +101,19 @@ img {
 
 
 .card__image--fence {
-  background-image: url(https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Icons/meditation.png);
+  background-image: url(https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Icons/time.png);
 }
 
 .card__image--river {
-    background-image: url(https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Icons/elearning.png);
-  }
-
-
-.card__image--record {
-    background-image: url(https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Icons/gift.png);
+    background-image: url(https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Icons/move.png);
   }
 
   .card__image--flowers {
-    background-image: url(https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Icons/925811.png);
+    background-image: url(https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Icons/confetti.png);
+  }
+
+  .card__image--record {
+    background-image: url(https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Icons/photo-strip.png);
   }
 .card__title {
   font-size: 1.7rem;
@@ -140,8 +138,8 @@ img {
 
 
     .cards__item{
-        width: 50%;
-        height: 400px;
+        width: 96%;
+        height: 250px;
 
     }
 }
