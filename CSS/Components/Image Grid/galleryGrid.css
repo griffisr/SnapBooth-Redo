@@ -36,10 +36,21 @@
   }
  
 
+  @media all and (min-width: 500px) {
+  }
+
+
+  /**************CUTOFF FOR VERTICAL*****************/
   @media all and (max-width: 500px) {
     
     #photo-booth-memory-wrapper{
       display:flex;
+    }
+
+    #photo-booth-memory-text-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     .wrapper {
@@ -55,6 +66,9 @@
       justify-items: center;
       align-items: center;
     } 
+    #photo-booth-memory-text{
+      max-width: 200vw;
+    }
 
     #phot-booth-memory-img-center{
       grid-column: 2/span 2;
@@ -62,4 +76,29 @@
     #phot-booth-memory-img-left{
       grid-column-start: 1;
     }
+  }
+
+
+  @media all and (max-width: 420px) {
+
+    #photo-booth-memory-text{
+      font-size: 15.5px;
+    }
+
+  }
+
+  @media all and (max-width: 375px) {
+
+    #photo-booth-memory-text{
+      font-size: 14.5px;
+    }
+
+  }
+
+  @media all and (max-width: 350px) {
+
+    #photo-booth-memory-text{
+      font-size: 13px;
+    }
+
   }
