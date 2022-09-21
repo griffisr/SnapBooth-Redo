@@ -13,7 +13,7 @@
     grid-gap: 2vmin;
     justify-items: center;
     align-items: center;
-  }
+  } 
   
    .galleryImg {
     opacity: .8;
@@ -35,3 +35,31 @@
     opacity: 1;
   }
  
+
+  @media all and (max-width: 500px) {
+    
+    #photo-booth-memory-wrapper{
+      display:flex;
+    }
+
+    .wrapper {
+      position: relative;
+      flex-grow: 1;
+      margin: auto;
+      max-width: 1200px;
+      max-height: 1200px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-gap: 2vmin;
+      justify-items: center;
+      align-items: center;
+    } 
+
+    #phot-booth-memory-img-center{
+      grid-column: 2/span 2;
+    }
+    #phot-booth-memory-img-left{
+      grid-column-start: 1;
+    }
+  }

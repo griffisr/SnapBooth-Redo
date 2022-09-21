@@ -20,6 +20,26 @@ html, body {
 
    #nav-logo{
   
+
+   }
+   #cta-button{
+    width: 100px;
+    background-color: #d6b074;
+    color: rgb(255, 255, 255);
+    border: #c6c6c6;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    border-width: 1px;
+    border-style: none;
+    border-radius: 5px;
+    width: 180px;
+    text-decoration: none;
+    box-shadow: none;
+
    }
    #swiper-wrap-1{
     width: 90vw;
