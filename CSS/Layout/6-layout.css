@@ -1215,17 +1215,35 @@ img.mfp-img {
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
+
+
+
 @media (max-width: 768px) {
   .fl-node-590842fbe3955 {
-    padding-left: 25%;
+    padding-left: 35vw;
+    max-width: 900px !important;
+
   }
+}
+@media only screen and (min-width: 525px) and (max-width:767px ){
+
+  .fl-node-590842fbe3955 {
+    padding-left: 41vw;
+
+  }
+
 }
 
 @media (max-width: 520px) {
   .fl-node-590842fbe3955 {
-    max-width: 350px;
+
+    padding-left: 35vw;
+    max-width: 900px !important;
   }
 }
+
+
+
 .fl-node-5925277de804b {
   width: 100%;
 }
@@ -2211,17 +2229,17 @@ img.mfp-img {
 }
 @media only screen and (max-width: 992px) {
   .fl-node-58e97f2eb9860 .pp-dual-button-content .pp-dual-button-inner {
-    float: ;
+    float: 0;
   }
 }
 @media only screen and (max-width: 768px) {
   .fl-node-58e97f2eb9860 .pp-dual-button-content .pp-dual-button-inner {
-    float: ;
+    float: 0;
   }
 }
 @media only screen and (max-width: 480px) {
   .fl-node-58e97f2eb9860 .pp-dual-button-content .pp-dual-button-inner {
-    float: ;
+    float: 0;
   }
   .fl-node-58e97f2eb9860 .pp-dual-button-content .pp-dual-button-inner {
     display: block;

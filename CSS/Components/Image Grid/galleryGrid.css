@@ -45,6 +45,9 @@
     
     #photo-booth-memory-wrapper{
       display:flex;
+      flex-direction: row-reverse;
+      padding-left: 15px;
+      padding-right: 15px;
     }
 
     #photo-booth-memory-text-wrapper{
@@ -54,6 +57,7 @@
     }
 
     .wrapper {
+      padding-left: 1vw;
       position: relative;
       flex-grow: 1;
       margin: auto;
@@ -76,6 +80,12 @@
     #phot-booth-memory-img-left{
       grid-column-start: 1;
     }
+
+    #photo-booth-memory-section{
+      padding-bottom: 20px;
+    }
+
+
   }
 
 
