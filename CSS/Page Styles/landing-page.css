@@ -1,8 +1,24 @@
 
 
 
+#why-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
 
 
+
+#why-list{
+    list-style: none;
+}
+
+
+#why-header{
+    font-weight: 700;
+}
 
 
 
@@ -10,8 +26,19 @@
 
 
   @media all and (max-width: 768px) {
+
     #photo-booth-rental{
         margin-top: -5vh;
     }
   }
 
+
+  @media all and (max-width: 500px) {
+
+    #why-header{
+        text-align: center;
+    }
+    #why-text{
+        text-align: center;
+    }
+  }
