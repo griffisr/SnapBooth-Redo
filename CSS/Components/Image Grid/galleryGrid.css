@@ -1,5 +1,10 @@
+:root{
 
-  
+  --animation-image: "2";
+}
+
+
+
   
   .wrapper {
     position: relative;
@@ -30,14 +35,31 @@
     grid-column: 2/span 2;
   }
   .galleryImg:hover {
-    z-index: 2;
-    transform: scale(2);
+    z-index: 3;
+    transform: scale(1.4);
     opacity: 1;
   }
  
+  #photo-booth-memory-img-mobile-extra{
+    visibility: hidden;
+  }
+
+
+  #photo-booth-memory-text-wrapper{
+    z-index: 5;
+  }
 
   @media all and (min-width: 500px) {
+
+
+    #photo-booth-memory-text-wrapper{
+
+      margin-bottom: 4vh;
+
+    }
   }
+
+  
 
 
   /**************CUTOFF FOR VERTICAL*****************/
@@ -49,6 +71,11 @@
       padding-left: 15px;
       padding-right: 15px;
     }
+    #photo-booth-memory-header-wrapper{
+
+      margin-bottom: 3vh;
+
+    }
 
     #photo-booth-memory-text-wrapper{
       display: flex;
@@ -56,6 +83,9 @@
       justify-content: center;
     }
 
+    #photo-booth-memory-text{
+      max-width: 200vw;
+    }
     .wrapper {
       padding-left: 1vw;
       position: relative;
@@ -70,20 +100,209 @@
       justify-items: center;
       align-items: center;
     } 
-    #photo-booth-memory-text{
-      max-width: 200vw;
+
+
+    @keyframes gallery-grid-mobile{
+
+      0%, 100%{
+        transform: scale(1);
+
+      }
+
+      50%{
+        transform: scale(1.15);
+        opacity: 1;
+        z-index: 2;
+
+      }
+
     }
 
-    #phot-booth-memory-img-center{
+    /**********1*************/
+    .wrapper :nth-child(6) {
+      animation-name: gallery-grid-mobile; 
+      animation-duration:  4s;
+      animation-iteration-count:  1;
+      animation-delay: 3s;
+    
+    }
+    .wrapper :nth-child(6):hover {
+      animation-name: gallery-grid-mobile; 
+      animation-play-state: paused;
+    
+    }
+    /***********************/
+
+
+    /**********2*************/
+    .wrapper :nth-child(1) {
+      animation-name: gallery-grid-mobile; 
+      animation-duration:  4s;
+      animation-iteration-count:  1;
+      animation-delay: 8s;
+
+    }
+    .wrapper :nth-child(1):hover {
+      animation-name: gallery-grid-mobile; 
+      animation-play-state: paused;
+    }
+    /***********************/
+
+    /**********3*************/
+    .wrapper :nth-child(5) {
+      animation-name: gallery-grid-mobile; 
+      animation-duration:  4s;
+      animation-iteration-count:  1;
+      animation-delay: 13s;
+
+    }
+    .wrapper :nth-child(5):hover {
+      animation-name: gallery-grid-mobile; 
+      animation-play-state: paused;
+    }
+    /***********************/
+
+
+    /**********4*************/
+    .wrapper :nth-child(8) {
+      animation-name: gallery-grid-mobile; 
+      animation-duration:  4s;
+      animation-iteration-count:  1;
+      animation-delay: 17s;
+
+    }
+    .wrapper :nth-child(8):hover {
+      animation-name: gallery-grid-mobile; 
+      animation-play-state: paused;
+    }
+    /***********************/
+
+    /*********5**************/
+    .wrapper :nth-child(7) {
+      animation-name: gallery-grid-mobile; 
+      animation-duration:  4s;
+      animation-iteration-count:  1;
+      animation-delay: 22s;
+
+    }
+    .wrapper :nth-child(7):hover {
+      animation-name: gallery-grid-mobile; 
+      animation-play-state: paused;
+    }
+    /***********************/
+
+    /**********6*************/
+    .wrapper :nth-child(3) {
+      animation-name: gallery-grid-mobile; 
+      animation-duration:  4s;
+      animation-iteration-count:  1;
+      animation-delay: 27s;
+
+    }
+    .wrapper :nth-child(3):hover {
+      animation-name: gallery-grid-mobile; 
+      animation-play-state: paused;
+    }
+    /***********************/
+
+    /*********7**************/
+    .wrapper :nth-child(9) {
+      animation-name: gallery-grid-mobile; 
+      animation-duration:  4s;
+      animation-iteration-count:  1;
+      animation-delay: 32s;
+
+    }
+    .wrapper :nth-child(9):hover {
+      animation-name: gallery-grid-mobile; 
+      animation-play-state: paused;
+    }
+    /***********************/
+
+    /**********8*************/
+    .wrapper :nth-child(2) {
+      animation-name: gallery-grid-mobile; 
+      animation-duration:  5s;
+      animation-iteration-count:  1;
+      animation-delay: 37s;
+
+    }
+    .wrapper :nth-child(2):hover {
+      animation-name: gallery-grid-mobile; 
+      animation-play-state: paused;
+    }
+    /***********************/
+
+    /**********9*************/
+    .wrapper :nth-child(4) {
+      animation-name: gallery-grid-mobile; 
+      animation-duration:  4s;
+      animation-iteration-count:  1;
+      animation-delay: 42s;
+
+    }
+    .wrapper :nth-child(4):hover {
+      animation-name: gallery-grid-mobile; 
+      animation-play-state: paused;
+    }
+    /***********************/
+
+    /**********10*************/
+    .wrapper :nth-child(10) {
+      animation-name: gallery-grid-mobile; 
+      animation-duration:  4s;
+      animation-iteration-count:  1;
+      animation-delay: 47s;
+    }
+    .wrapper :nth-child(10):hover {
+      animation-name: gallery-grid-mobile; 
+      animation-play-state: paused;
+    }
+    /***********************/
+
+    /**********11*************/
+    .wrapper :nth-child(11) {
+      animation-name: gallery-grid-mobile; 
+      animation-duration:  4s;
+      animation-iteration-count:  1;
+      animation-delay: 52s;
+    }
+    .wrapper :nth-child(11):hover {
+      animation-name: gallery-grid-mobile; 
+      animation-play-state: paused;
+    }
+    /***********************/
+
+
+
+    
+
+    
+
+    #photo-booth-memory-img-mobile-extra{
+      visibility: visible;
+    }
+
+
+
+    #photo-booth-memory-img-center{
       grid-column: 2/span 2;
     }
-    #phot-booth-memory-img-left{
+    #photo-booth-memory-img-left{
       grid-column-start: 1;
     }
 
-    #photo-booth-memory-section{
-      padding-bottom: 20px;
+    #photo-booth-memory-img-right{
+      grid-column-start: 3;
     }
+
+    #photo-booth-memory-text{
+      font-size: 16px;
+      padding-left: 1vw;
+      background-color: #ededeca3;
+    }
+
+
 
 
   }
@@ -93,6 +312,10 @@
 
     #photo-booth-memory-text{
       font-size: 15.5px;
+    }
+
+    #photo-booth-memory-section{
+      padding-bottom: 20px;
     }
 
   }
@@ -112,3 +335,16 @@
     }
 
   }
+
+
+  @media all and (max-width: 330px) {
+
+    #photo-booth-memory-text{
+      padding-left: 5px;
+      font-size: 12px;
+    }
+
+  }
+
+
+
