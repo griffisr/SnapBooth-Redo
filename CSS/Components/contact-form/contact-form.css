@@ -60,18 +60,18 @@ a {
   
   /* Contact */
   .contact {
-    background-color: #807060;
+    background-color: #EDEDED;
   }
   
   .contact-wrapper {
     display: flex;
     flex-direction: column;
-    margin: 10% auto;
+    margin: 5% auto;
     width: 90%;
   }
   
   .contact-wrapper h2 {
-    color: #F2F2F2;
+    color: #002A44;
   }
   
   .form-wrapper p {
@@ -163,38 +163,10 @@ a {
     text-align: center;
   }
   
-  @media (min-width: 460px) {
-    .product-item {
-      flex: 1 0 50%;
-    }
-    .product-description {
-      align-self: stretch;
-      flex: 1;
-    }
-    .products-wrap {
-      flex-flow: row wrap;
-      width: 100%;
-      justify-content: center;
-    }
-  }
+
   
   @media (min-width: 550px) {
-    .cta-wrapper h2 {
-      font-size: 2rem;
-    }
-    .customers h3 {
-      margin-bottom: 2%;
-    }
-    .client-logo-wrapper {
-      flex-wrap: nowrap;
-    }
-    .client-logo-wrapper img {
-      margin: 1%;
-      width: 120px;
-    }
-     .quote-wrapper {
-      max-width: 570px; 
-    }
+    
     .p-text {
       margin-bottom: 5%;
     }
@@ -217,127 +189,8 @@ a {
     .contact-wrapper > div {
       width: 45%;
     }
-    .client-logo-wrapper img {
-      width: 150px;
-    }  
+
   }
   
-  @media (min-width: 820px) {
-    .products-wrap {
-      width: 90%;
-    }
-    .product-item {
-      padding: 2.5%;
-    }
-    .product-item img {
-      width: 120px;
-    }
-    .project-bridge {
-      display: flex; 
-      flex-direction: column;
-    }
-    .clients-video {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-evenly;
-    }
-    .clients-video :nth-child(2) { 
-      order: 3;
-    }
-    .client-logo-wrapper {
-      margin-bottom: 5%;
-    }
-  }
-  
-  @media (min-width: 920px) {   
-  /*  remove toggle and display menu  */
-    .menu-toggle, 
-    .menu-close {
-      display: none;
-    }
-    .nav-bar-wrapper {
-      display: inline-flex;
-      position: relative;
-      right: auto;
-      top: auto;
-      height: auto;
-      overflow: initial;
-    }
-    .menu-wrapper {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-    }
-    .nav-bar-wrapper ul {
-      display: flex;
-      padding: 0;
-      box-shadow: none;
-      height: auto;
-      width: auto;
-      background: none;
-    }
-    #header {
-      display: flex;
-    }
-    .logo-toggle-flex {
-      margin-right: auto;
-    }
-    .menu-wrapper li {
-      align-self: center;
-      border: none;
-    }
-    .menu-wrapper a {
-      color: #4E5254;
-      font-weight: 700;
-    }
-  /*  section styles  */
-    .cta-wrapper { 
-      width: 80%; 
-    }  
-    .cta-wrapper h1 {
-      font-size: 3rem;
-    }
-    .cta-wrapper h2 {
-      font-size: 2.3rem;
-    }
-    .products h2 {
-      margin: 5%;
-    }
-    .customers {
-      margin-bottom: 5%;
-    }
-    .about-wrapper {
-      flex-flow: row wrap;
-      justify-content: space-around;
-    }
-    .about-wrapper > img {
-      width: 50%;
-      align-self: flex-start;
-    }
-    .p-text {
-      width: 45%;
-    }
-    .acc-logo img {
-      max-width: 150px;
-    }
-  }
-  
-  @media (min-width: 1020px) {
-    .products h2,
-    .about-text h2 {
-      margin: 5%;
-    }
-    .products-wrap {
-      margin-bottom: 5%;
-    }
-    .product-item {
-      flex: 0 auto;
-      padding: 2%;
-    }
-    .product-item img {
-      width: 140px;
-    }
-    .product-item a {
-      margin-bottom: 0;
-    }
-  }
+
+ 
