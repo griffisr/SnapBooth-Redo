@@ -24,6 +24,7 @@
 
     <!--Page Specific Style Sheets-->
     <link rel='stylesheet' type="text/css" href='CSS/Components/price-cards.css' media='all' />
+    <link rel='stylesheet' type="text/css" href='CSS/Components/contact-form/contact-form.css' media='all' />
 
 
      <!-- Layout -->
@@ -169,6 +170,37 @@
                                     <div class="fl-post-content clearfix" itemprop="text" style="padding-bottom: 20px;">
                                       <div class="fl-builder-content fl-builder-content-24290 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="24290">
 
+                                          <!-- Modal -->
+                                          <div class="modal fade" id="myModal" role="dialog">
+                                            <div class="modal-dialog">
+
+                                              <!-- Modal content-->
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                  <h3 class="modal-title" id="modal-title" title="Photo Booth Near Me">Modal Header</h3>
+                                                </div>
+                                                <div class="modal-body">
+                                                  <img class="img-responsive center-block modalImg" src="" alt= "Photo Booth Near Me" id="modal-image">
+                                                  <br>
+                                                  
+                                                  <p id="modalBodyText"></p>
+                                                  <h2 id="modalBodyTitle" title="Photo Booth Near Me"></h2 >
+
+                                                  <h4 id="includedPackage" title="Photo Booth Near Me"></h4>
+                                                  <h4 title="Photo Booth Near Me">&#9900;Complimentary set-up time 1 hour prior to event</h4>
+                                                  <h4 title="Photo Booth Near Me">&#9900;Customized graphics for photo booth and strips</h4>
+                                                  <h4 title="Photo Booth Near Me">&#9900;Complimentary flash drive given directly after the
+                                                    event filled with all your photos!</h4>
+                                                  
+                                                </div>
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                              </div>
+
+                                            </div>
+                                          </div>
                               
                                                           <!--header-->
                                           <div class="fl-col-group fl-node-58eb15a01984e" data-node="58eb15a01984e">
@@ -189,7 +221,9 @@
                                             </div>
                                           </div>
 
-                                             <!--Left Side-->
+
+                                          <div class="rates-wrapper">
+                                                                                         <!--Left Side-->
 
                                           <div class="fl-col fl-node-58eb127f354c6" data-node="58eb127f354c6">
                                             <div class="fl-col-content fl-node-content">
@@ -203,44 +237,14 @@
 
 
                                                       
-                                                      <!-- Modal -->
-                                                      <div class="modal fade" id="myModal" role="dialog">
-                                                        <div class="modal-dialog">
-
-                                                          <!-- Modal content-->
-                                                          <div class="modal-content">
-                                                            <div class="modal-header">
-                                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                              <h3 class="modal-title" id="modal-title" title="Photo Booth Near Me">Modal Header</h3>
-                                                            </div>
-                                                            <div class="modal-body">
-                                                              <img class="img-responsive center-block modalImg" src="" alt= "Photo Booth Near Me" id="modal-image">
-                                                              <br>
-                                                              
-                                                              <p id="modalBodyText"></p>
-                                                              <h2 id="modalBodyTitle" title="Photo Booth Near Me"></h2 >
-
-                                                              <h4 id="includedPackage" title="Photo Booth Near Me"></h4>
-                                                              <h4 title="Photo Booth Near Me">&#9900;Complimentary set-up time 1 hour prior to event</h4>
-                                                              <h4 title="Photo Booth Near Me">&#9900;Customized graphics for photo booth and strips</h4>
-                                                              <h4 title="Photo Booth Near Me">&#9900;Complimentary flash drive given directly after the
-                                                                event filled with all your photos!</h4>
-                                                              
-                                                            </div>
-                                                            <div class="modal-footer">
-                                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                            </div>
-                                                          </div>
-
-                                                        </div>
-                                                      </div>
+                                                    
 
                                                       <div class="cards-list">
 
                                                         <a href="#" class="thumbnail" style="border: none;" onclick="clickedHourly()">
                                                           <div class="card 1" data-toggle="modal" data-target="#myModal">
                                                             <div class="card_image">
-                                                              <img id="wedding" src="Images/Logos/darkBackgroundLogo.jpg" alt= "Photo Booth Near Me" />
+                                                              <img id="wedding" src="Images/Promo/solid-hourly.png" alt= "Photo Booth Near Me" />
                                                             </div>
                                                             <div class="card_title title-white">
                                                               <p>HOURLY</p>
@@ -253,10 +257,25 @@
                                                         <a href="#" class="thumbnail" style="border: none;" onclick="clickedInclusive()">
                                                           <div class="card 2" data-toggle="modal" data-target="#myModal">
                                                             <div class="card_image">
-                                                              <img id="wedding" src="Images/Promo/Setup.jpg" alt= "Photo Booth Near Me" />
+                                                              <img id="wedding" src="Images/Promo/solid-inclusive.png" alt= "Photo Booth Near Me" />
+                                                         
                                                             </div>
+                                                            
                                                             <div class="card_title title-white">
+
+                                                              <h3 id="price-header">Test</h3>
                                                               <p >ALL INCLUSIVE</p>
+                                                              <p>Test</p>
+                                                              <p >ALL INCLUSIVE</p>
+                                                              <p>Test</p>
+                                                              <p >ALL INCLUSIVE</p>
+                                                              <p>Test</p>
+                                                              <p >ALL INCLUSIVE</p>
+                                                              <p>Test</p>
+                                                              <p >ALL INCLUSIVE</p>
+                                                              <p>Test</p>
+                                                              <p >ALL INCLUSIVE</p>
+
                                                             </div>
                                                           </div>
                                                         </a>
@@ -309,6 +328,57 @@
                                             </div>
                                           </div>
                                           <!--End Right side-->
+
+                                          </div>
+
+
+
+
+                                          <!--  Contact  -->
+  <section class="contact" id="contact">
+    <div class="contact-wrapper">
+      <div class="form-wrapper">
+        <h2>Contact Us</h2>
+        <p>Let's talk about your next project!</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="name" class="visuallyhidden">Enter your name</label><br>
+          <input id="name" name="name" type="text" placeholder="Name" required><br>
+          <label for="email" class="visuallyhidden">Enter your email</label><br>
+          <input id="email" name="email" type="email" placeholder="Email" required><br>
+          <label for="user-tel" class="visuallyhidden">Enter your phone number</label><br>
+          <input id="user-tel" name="user-tel" type="text" placeholder="Phone"><br>
+          <label for="message" class="visuallyhidden">Type in your message</label><br>
+          <textarea id="message" name="message" placeholder="Message" rows="10"></textarea><br>
+          <input type="submit" name="submit" id="submit" value="Submit" class="enquiry">
+        </form>
+      </div><!--  end form-wrapper    -->
+      <div class="privacy">
+        <p>We are 100% committed to your privacy and will use the information you provide us solely to contact you about relevant content and services. For more information, please read our Privacy Policy.</p>
+      </div><!--  end privacy    -->
+      <div class="contact-details">
+        <h2>Need to reach us immediately?</h2>
+        <p>Our Sales and Technical Team are available 24/7.</p>
+        <div class="phone">
+          <h3>By phone</h3>
+          <p>Call our hotline at 000 8765 4321.</p>
+        </div>
+        <div class="email">
+          <h3>By email</h3>
+          <p>Send an email to info@holdfaststeel.com</p>
+        </div>
+        <div class="message">
+          <h3>Message</h3>
+          <p>Send us a message via our Contact form.</p>
+        </div>
+        <div class="address">
+          <h3>Visit us</h3>
+          <p>Unit 7, Riveting Building Block A, Irony Street, London, JK3P 8VQ</p>
+        </div>
+      </div><!--  end contact-details    -->
+     </div><!--  end contact-wrapper  -->
+  </section>
+
+
                                           
 
 
