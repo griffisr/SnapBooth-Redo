@@ -1,0 +1,489 @@
+.request-a-quote-mobile-next-steps{
+    display: none;
+}
+#timeline{
+    padding-top: 45px;
+}
+.request-a-quote-mobile-next-steps{
+
+    width: 50vw;
+
+
+}
+#subject-input{
+    width: 100%;
+}
+
+
+
+
+/****************** Next Steps  *****************/
+#quote-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  
+  
+  section#timeline {
+    margin: 20px auto;
+    position: relative;
+    margin-left: -20%;
+  }
+  section#timeline:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin: 0 0 0 -1px;
+    width: 2px;
+    height: 100%;
+    background: #8d9fa9;
+  }
+  section#timeline article {
+    width: 100%;
+    margin: 0 0 20px 0;
+    position: relative;
+  }
+  section#timeline article:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  section#timeline article div.inner {
+    width: 40%;
+    float: right;
+    margin: 5px 0 0 0;
+    border-radius: 6px;
+  }
+
+  section#timeline article div.inner span.date span {
+    display: block;
+    text-align: center;
+  }
+  section#timeline article div.inner h2 {
+    padding: 15px;
+    margin: 0;
+    color: #8d9fa9;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+    text-align: right;
+  }
+  section#timeline article div.inner h2:after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 95%;
+        width: 10px; 
+        height: 10px;
+    -webkit-transform: rotate(-45deg);
+  }
+  section#timeline article div.inner p {
+    padding: 15px;
+    margin: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #001929;
+    border-radius: 0 0 6px 6px;
+    text-align: right;
+  }
+  
+  section#timeline article:nth-child(2n+2) div.inner {
+    float: right;
+  }
+  section#timeline article:nth-child(n) div.inner h2:after {
+    left: -5px;
+  }
+  
+  section#timeline article:nth-child(1) div.inner h2 {
+    background: #fff;
+  }
+  section#timeline article:nth-child(1) div.inner h2:after {
+    background: #fff;
+  }
+  section#timeline article:nth-child(2) div.inner h2 {
+    background: #fff;
+  }
+  section#timeline article:nth-child(2) div.inner h2:after {
+    background: #fff;
+  }
+  section#timeline article:nth-child(3) div.inner h2 {
+    background: #fff;
+  }
+  section#timeline article:nth-child(3) div.inner h2:after {
+    background: #fff;
+  }
+  
+  
+  
+  @media only screen and (min-width: 768px) {
+  
+    section#timeline article div.inner h2 {
+      font-size: 18px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+  
+    #content-wrapper{
+      display: flex;
+    }
+  
+    section#timeline {
+      margin-bottom: 1px auto;
+  
+    }
+    
+  
+    #next-steps-title{
+      display: none;
+  
+    }
+  
+    #next-steps-container{
+      width: 5% !important;
+      transform: translateY();
+    }
+    
+    #contact-form-container{
+      padding-left: 20px !important;
+      width: 60% !important;
+    }
+
+  
+    section#timeline article div.inner h2 {
+      width: 22.5vw;
+      font-size: 18px;
+    }
+  
+    section#timeline article div.inner p {
+      padding-right: 15px;
+      padding-left: 5px;
+      padding-top: 0px;
+  
+      line-height: 1.5;
+      width: 22.5vw;
+      height: 35vw;
+      font-size: 15px;
+  
+  
+   
+    }
+  
+  
+  
+  
+  }
+@media only screen and (max-width: 768px) {
+
+    #request-a-quote{
+        background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/quote-cover-blue+copy.jpg");
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .request-a-quote-mobile-next-steps{
+        display: flex;
+    }
+}
+
+/*    */
+@media (max-width: 768px) {
+    .fl-node-590842fbe3955 {
+        /*       padding-left: 5vw !important;   */
+        padding-left: 0%!important;
+
+      max-width: 900px !important;
+  
+    }
+    
+  }
+  @media only screen and (min-width: 650px) and (max-width:767px ){
+  
+    .fl-node-590842fbe3955 {
+        /*       padding-left: 35vw !important;   */
+        padding-left: 0%!important;
+
+  
+    }
+  
+  }
+
+  @media only screen and (min-width: 581px) and (max-width: 649px ){
+  
+    .fl-node-590842fbe3955 {
+        /*       padding-left: 31vw !important;   */
+        padding-left: 0%!important;
+
+  
+    }
+
+    #request-a-quote-title{
+        font-size: 35px;
+
+    }
+    section#timeline article div.inner p{
+        font-size: 13px;
+
+      }
+  
+  }
+
+  @media only screen and (min-width: 512px) and (max-width: 580px ){
+  
+    .fl-node-590842fbe3955 {
+        /*       padding-left: 31vw !important;   */
+        padding-left: 0%!important;
+
+  
+    }
+
+    #request-a-quote-title{
+        font-size: 32px;
+
+    }
+
+    .request-a-quote-mobile-next-steps{
+        width: 45vw;
+
+    }
+
+    section#timeline {
+        margin-left: -30%;
+      }
+
+      section#timeline article div.inner p{
+        font-size: 11.75px;
+
+      }
+  
+  }
+
+
+
+  @media only screen and (min-width: 481px) and (max-width: 511px ){
+  
+    .fl-node-590842fbe3955 {
+        /*        padding-left: 28vw !important;  */
+        padding-left: 0%!important;
+
+  
+    }
+
+    #request-a-quote-title{
+        font-size: 30px;
+
+    }
+
+    .request-a-quote-mobile-next-steps{
+        width: 45vw;
+
+    }
+    #request-a-quote-main-text{
+        font-size: 15px;
+
+    }
+
+    section#timeline {
+        margin-left: -35%;
+      }
+
+    section#timeline article div.inner h2{
+        font-size: 16px;
+
+      }
+
+      section#timeline article div.inner p{
+        font-size: 10.5px;
+
+      }
+  }
+
+  @media only screen and (min-width: 437px) and (max-width: 480px ){
+  
+    .fl-node-590842fbe3955 {
+        /*       padding-left: 24vw !important;   */
+
+  
+    }
+
+    #request-a-quote-title{
+        font-size: 28px;
+
+    }
+    #request-a-quote-main-text{
+        font-size: 15px;
+
+    }
+
+    .request-a-quote-mobile-next-steps{
+        width: 40vw;
+
+    }
+
+
+
+
+    section#timeline {
+        margin-left: -25%;
+      }
+
+    section#timeline article div.inner h2{
+        width: 18vw;
+        font-size: 12px;
+
+      }
+
+      section#timeline article div.inner p{
+        width: 18vw;
+        height: 57vw;
+        font-size: 10.25px;
+
+      }
+  
+  }
+
+  @media only screen and (min-width: 408px) and (max-width: 436px ){
+  
+   
+    .fl-node-590842fbe3955 {
+        /*       padding-left: 24vw !important;   */
+
+  
+    }
+
+    #request-a-quote-title{
+        font-size: 28px;
+
+    }
+    #request-a-quote-main-text{
+        font-size: 15px;
+
+    }
+
+    .request-a-quote-mobile-next-steps{
+        width: 40vw;
+
+    }
+
+
+
+
+    section#timeline {
+        margin-left: -25%;
+      }
+
+    section#timeline article div.inner h2{
+        width: 16.5vw;
+        font-size: 10px;
+
+      }
+
+      section#timeline article div.inner p{
+        width: 16.5vw;
+        height: 60vw;
+        font-size: 9px;
+
+      }
+  
+  }
+
+  @media only screen and (min-width: 381px) and (max-width: 407px ){
+  
+    .fl-node-590842fbe3955 {
+        /*       padding-left: 24vw !important;   */
+
+  
+    }
+
+    #request-a-quote-title{
+        font-size: 28px;
+
+    }
+    #request-a-quote-main-text{
+        font-size: 15px;
+
+    }
+
+    .request-a-quote-mobile-next-steps{
+        width: 40vw;
+
+    }
+
+
+
+
+    section#timeline {
+        margin-left: -28%;
+      }
+
+    section#timeline article div.inner h2{
+        padding-right: 5px;
+        width: 16vw;
+        font-size: 10px;
+
+      }
+
+      section#timeline article div.inner p{
+        padding-right: 5px;
+        width: 16vw;
+        height: 60vw;
+        font-size: 8.5px;
+
+      }
+  
+  
+  }
+
+
+
+  /*default mobile view smaller than 381 px  */
+  @media (max-width: 380px) {
+    .fl-node-590842fbe3955 {
+        /*       padding-left: 24vw !important;   */
+
+  
+    }
+
+    #request-a-quote-title{
+        font-size: 26px;
+
+    }
+    #request-a-quote-main-text{
+        font-size: 13px;
+
+    }
+
+    .request-a-quote-mobile-next-steps{
+        width: 25vw;
+
+    }
+
+
+
+    section#timeline {
+        margin-left: -25%;
+      }
+
+    section#timeline article div.inner h2{
+        padding-right: 5px;
+        width: 14vw;
+        font-size: 7.75px;
+
+      }
+
+      section#timeline article div.inner p{
+        padding-right: 5px;
+        width: 14vw;
+        height: 60vw;
+        font-size: 7px;
+
+      }
+  }
+
