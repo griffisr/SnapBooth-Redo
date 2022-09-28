@@ -483,6 +483,7 @@
       }
 
     section#timeline article div.inner h2{
+        padding-right: 5px;
         width: 14vw;
         font-size: 7.5px;
 
