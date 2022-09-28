@@ -235,7 +235,7 @@
   
   }
 
-  @media only screen and (min-width: 510px) and (max-width: 580px ){
+  @media only screen and (min-width: 512px) and (max-width: 580px ){
   
     .fl-node-590842fbe3955 {
         /*       padding-left: 31vw !important;   */
@@ -259,7 +259,7 @@
       }
 
       section#timeline article div.inner p{
-        font-size: 12px;
+        font-size: 11.75px;
 
       }
   
@@ -267,7 +267,7 @@
 
 
 
-  @media only screen and (min-width: 475px) and (max-width: 509px ){
+  @media only screen and (min-width: 481px) and (max-width: 511px ){
   
     .fl-node-590842fbe3955 {
         /*        padding-left: 28vw !important;  */
@@ -300,12 +300,12 @@
       }
 
       section#timeline article div.inner p{
-        font-size: 11px;
+        font-size: 10.5px;
 
       }
   }
 
-  @media only screen and (min-width: 428px) and (max-width: 474px ){
+  @media only screen and (min-width: 437px) and (max-width: 480px ){
   
     .fl-node-590842fbe3955 {
         /*       padding-left: 24vw !important;   */
@@ -342,14 +342,14 @@
 
       section#timeline article div.inner p{
         width: 18vw;
-        height: 50vw;
-        font-size: 10px;
+        height: 57vw;
+        font-size: 10.25px;
 
       }
   
   }
 
-  @media only screen and (min-width: 406px) and (max-width: 427px ){
+  @media only screen and (min-width: 408px) and (max-width: 436px ){
   
    
     .fl-node-590842fbe3955 {
@@ -387,14 +387,14 @@
 
       section#timeline article div.inner p{
         width: 16.5vw;
-        height: 50vw;
+        height: 60vw;
         font-size: 9px;
 
       }
   
   }
 
-  @media only screen and (min-width: 381px) and (max-width: 405px ){
+  @media only screen and (min-width: 381px) and (max-width: 407px ){
   
     .fl-node-590842fbe3955 {
         /*       padding-left: 24vw !important;   */
@@ -433,7 +433,7 @@
       section#timeline article div.inner p{
         padding-right: 5px;
         width: 16vw;
-        height: 50vw;
+        height: 60vw;
         font-size: 8.5px;
 
       }
@@ -444,7 +444,7 @@
 
 
   /*default mobile view smaller than 381 px  */
-  @media (max-width: 381px) {
+  @media (max-width: 380px) {
     .fl-node-590842fbe3955 {
         /*       padding-left: 24vw !important;   */
 
@@ -474,15 +474,15 @@
     section#timeline article div.inner h2{
         padding-right: 5px;
         width: 14vw;
-        font-size: 7.5px;
+        font-size: 7.75px;
 
       }
 
       section#timeline article div.inner p{
         padding-right: 5px;
         width: 14vw;
-        height: 50vw;
-        font-size: 6.5px;
+        height: 60vw;
+        font-size: 7px;
 
       }
   }
