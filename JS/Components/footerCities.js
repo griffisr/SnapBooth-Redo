@@ -41,7 +41,7 @@
             
             
                           <!--Footer (0 0 X)-->
-                          <div class="fl-col fl-node-59078ee664ef4 fl-col-small" data-node="59078ee664ef4">
+                          <div class="fl-col fl-node-59078ee664ef4 " data-node="59078ee664ef4">
                             <div class="fl-col-content fl-node-content">
                               <!--Reach Out Contact Info-->
                               <div class="fl-module fl-module-rich-text fl-node-59079189674fc" data-node="59079189674fc">
@@ -100,7 +100,7 @@
             
             
                           <!--Footer (X 0 0)-->
-                          <div class="fl-col fl-node-59078ee664ebb fl-col-small" data-node="59078ee664ebb">
+                          <div class="fl-col fl-node-59078ee664ebb " data-node="59078ee664ebb">
                             <div class="fl-col-content fl-node-content">
                               <div class="fl-module fl-module-rich-text fl-node-59079271d91c2" data-node="59079271d91c2">
                                 <div class="fl-module-content fl-node-content">
@@ -125,7 +125,7 @@
                           </div>
             
                           <!--Footer (0 X 0)-->
-                          <div class="fl-col fl-node-59078ee664f2e fl-col-small" data-node="59078ee664f2e">
+                          <div class="fl-col fl-node-59078ee664f2e " data-node="59078ee664f2e">
                             <div class="fl-col-content fl-node-content">
                               <div class="fl-module fl-module-rich-text fl-node-59078ee664ffa" data-node="59078ee664ffa">
                                 <div class="fl-module-content fl-node-content">
