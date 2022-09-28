@@ -90,6 +90,7 @@
     letter-spacing: -1px;
     border-radius: 6px 6px 0 0;
     position: relative;
+    text-align: right;
   }
   section#timeline article div.inner h2:after {
     content: '';
@@ -107,6 +108,7 @@
     background: #fff;
     color: #001929;
     border-radius: 0 0 6px 6px;
+    text-align: right;
   }
   
   section#timeline article:nth-child(2n+2) div.inner {
