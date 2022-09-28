@@ -1,0 +1,49 @@
+
+.sub-text{
+    text-align: center;
+}
+.faq-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.left-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 45%;
+
+}
+
+.right-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 45%;
+
+}
+
+
+#contact-section{
+    background-color: #ededed;
+}
+
+@media only screen and (max-width: 768px) {
+  
+
+   .faq-wrapper{
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+   }
+   .left-faq {
+    width: 90%;
+   }
+   .right-faq{
+    width: 94%;
+
+}
+
+  }
