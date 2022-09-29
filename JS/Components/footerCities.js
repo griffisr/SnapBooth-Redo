@@ -133,7 +133,7 @@
                                     <!--Site Links-->
                                     <h4 title="Photo Booth Near Me">Links</h4>
                                     <ul>
-                                      <li><a href="../RatesAvailability.html" title ="photo booth near me">Contact</a></li>
+                                      <li><a href="../request-a-quote.html" title ="photo booth near me">Contact</a></li>
                                       <li> <a href="../FAQs.html" title ="photo booth near me">FAQ</a> </li>
                                       <li> <a href="../photo-booth-rental-guide.html" title ="photo booth near me">Rental Guide</a> </li>
                                       <li> <a href="../testimonials.html" title ="photo booth near me">Testimonials</a> </li>

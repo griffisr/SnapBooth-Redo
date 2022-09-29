@@ -47,6 +47,10 @@
     background-color: #ededed;
 }
 
+
+
+
+
 @media only screen and (max-width: 768px) {
   
 
@@ -64,3 +68,44 @@
 }
 
   }
+
+
+  @media only screen and (max-width: 525px) {
+  
+
+    .contact-title{
+    
+        font-size: 22px;
+
+    }
+
+    .contact-text{
+        font-size: 15px;
+    }
+   }
+
+   @media only screen and (max-width: 410px) {
+  
+
+    .contact-title{
+    
+        font-size: 20px;
+
+    }
+
+    .contact-text{
+        font-size: 13px;
+    }
+ 
+   }
+
+   @media only screen and (max-width: 374px) {
+  
+
+    .contact-title{
+    
+        font-size: 18px;
+
+    }
+ 
+   }
