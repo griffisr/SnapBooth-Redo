@@ -236,10 +236,10 @@
                      <!--*****************************************************************************************-->
                      <!--********************              Two sided FAQ guide                ************************-->
                      <!--*****************************************************************************************-->
-                     <div class="fl-row fl-row-fixed-width fl-row-bg-none fl-node-58eb127f16ac7" data-node="58eb127f16ac7">
+                     <div class="fl-row fl-row-bg-none fl-node-58eb127f16ac7" data-node="58eb127f16ac7">
                       <div class="fl-row-content-wrap">
                         <div class="uabb-row-separator uabb-top-row-separator"></div>
-                          <div class="fl-row-content fl-row-fixed-width fl-node-content">
+                          <div class="fl-row-content fl-node-content">
 
                             <div class="fl-col-group fl-node-58eb127f35165" data-node="58eb127f35165">
 
@@ -457,27 +457,95 @@
 
 
                     
+                    
                       <!--  Contact  -->
                   <section class="contact" id="contact">
                     <div class="contact-wrapper">
+
+
                       <div class="form-wrapper">
                         <h2>Contact Us</h2>
-                        <form id="form" action="https://www.freecodecamp.com/email-submit">
-                          <label for="name" class="visuallyhidden">Enter your name</label><br>
-                          <input id="name" name="name" type="text" placeholder="Name" required><br>
-                          <label for="email" class="visuallyhidden">Enter your email</label><br>
-                          <input id="email" name="email" type="email" placeholder="Email" required><br>
-                          <label for="user-tel" class="visuallyhidden">Enter your phone number</label><br>
-                          <input id="user-tel" name="user-tel" type="text" placeholder="Phone"><br>
-                          <label for="message" class="visuallyhidden">Type in your message</label><br>
-                          <textarea id="message" name="message" placeholder="Message" rows="10"></textarea><br>
-                          <input type="submit" name="submit" id="submit" value="Submit" class="enquiry">
+                        <form id="contact-form" method="POST">
+                          <label>Name</label>
+                          <input
+                          id="name-input"
+                          class="input-field" 
+                          type="text" 
+                          name="name"
+                          onchange   = "quoteFormStarted(this.name);"
+                          onpaste    = "this.onchange();">
+
+                          <label>Email</label>
+                          <input id="email-input" 
+                          class="input-field" 
+                          type="text" 
+                          name="email"
+                          onchange   = "quoteFormStarted(this.name);"
+                          onpaste    = "this.onchange();">
+
+
+
+
+
+
+
+
+                          <input type="hidden" name="frm_action" value="create" />
+                          <input type="hidden" name="form_id" value="461" />
+                          <input type="hidden" name="frm_hide_fields_461" id="frm_hide_fields_461" value="" />
+                          <input type="hidden" name="form_key" value="caxvs" />
+                          <input type="hidden" name="item_meta[0]" value="" />
+                          <input type="hidden" id="frm_submit_entry_461" name="frm_submit_entry_461"
+                            value="ee485a3d3a" /><input type="hidden" name="_wp_http_referer" value="/contact-us/" />
+
+
+
+                          <div id="frm_field_13607_container" class="form-field   frm_top_container">
+                            <label class="frm_pos_ frm_primary_label">How can we help you? (optional)
+                              <span class="frm_required"></span>
+                            </label>
+                            <textarea name="item_meta[13607]" id="message-input" rows="5"></textarea>
+
+
+                          </div>
+
+                          <br>
+                          <a href="/thank-you.html">
+                            <input id="submit-btn" type="submit" value="Request Quote Now" onclick="submitToAPI(event); requestedQuote()"
+                              style="width: 100%;">
+                          </a>
+
+
                         </form>
                       </div><!--  end form-wrapper    -->
-                      <div class="privacy">
-                        <p>We are 100% committed to your privacy and will use the information you provide us solely to contact you about relevant content and services. For more information, ask about our Privacy Policy.</p>
-                      </div><!--  end privacy    -->
+
+                      <div class="contact-details">
+
+                        <div class="phone">
+                          <h3>By phone</h3>
+                          <p>Call our hotline at 734 707 7794.</p>
+                        </div>
+                        <div class="email">
+                          <h3>By email</h3>
+                          <p>Send an email to snapboothphotosmi@gmail.com</p>
+                        </div>
+                        <div class="message">
+                          <h3>Message</h3>
+                          <p>Send us a message via our Contact form.</p>
+                        </div>
+
+
+                      </div>
+
+
+
+
+
+                      
                     </div><!--  end contact-wrapper  -->
+                    <div class="privacy">
+                      <h5>We are 100% committed to your privacy and will use the information you provide us solely to contact you about relevant content and services. For more information, ask about our Privacy Policy.</h5>
+                    </div><!--  end privacy    -->
                   </section>
                                 
                     
