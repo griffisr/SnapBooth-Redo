@@ -3,19 +3,22 @@
 .snip1533 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   color: #9e9e9e;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 16px;
   margin: 35px 10px 10px;
   max-width: 310px;
   min-width: 250px;
+  min-height: 300px;
   position: relative;
   text-align: center;
   width: 100%;
   background-color: #ffffff;
   border-radius: 5px;
   border-top: 5px solid #0A3D4D;
-  align-items: center;
+  align-items: baseline;
 }
 
 .snip1533 *,
@@ -71,10 +74,55 @@
 
 /* Demo purposes only */
 
-.wrapper{
+.testimonial-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   text-align: center;
+  padding: 0 5px 0 5px;
+}
 
+#testimonial-page-wrapper{
+  display: flex;
+  flex-direction: column;
 }
 
 
-media query 450- 350 for heading with cta button padding left 50 px
+
+@media only screen and (max-width: 800px){
+  
+  .snip1533 {
+    font-size: 16px;
+    margin: 35px 10px 10px;
+    max-width: 310px;
+    min-width: 200px;
+    align-items: baseline;
+  }
+
+
+
+
+}
+
+@media only screen and (max-width: 767px){
+  
+  .testimonial-wrapper{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+    .snip1533 {
+    font-size: 16px;
+    margin: 35px 10px 10px;
+    max-width: 80vw;
+    min-width: 200px;
+    min-height: 50vh;
+    align-items: baseline;
+  }
+
+
+
+
+}
