@@ -39,6 +39,9 @@
 .contact-details{
     width: 25%;
 }
+.privacy{
+    text-align: center;
+}
 
 #contact-section{
     background-color: #ededed;
