@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Snap Booth Photos || RESERVATIONS</title>
+    <title>Snap Booth Photos || REQUEST A QUOTE</title>
     <meta name="description" content="Looking for a CUSTOM Photo Booth? Snap Booth Photos is proud to be the #1 Photo Booth rental in the Michigan, Ohio, Indiana area! Contact us today for more information.">
     <meta charset="UTF-8" />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
@@ -65,7 +65,7 @@
     
     
     
-    <link rel="canonical" href="http://snapboothphotos.com/" />
+    <link rel="canonical" href="http://snapboothphotos.com/request-a-quote" />
     <link rel='shortlink' href='http://snapboothphotos.com/' />
 
     <style>
@@ -209,6 +209,7 @@
         var response = JSON.parse(xmlhttp.responseText);
         if (xmlhttp.status === 200) {
           console.log('successful');
+          window.location.href = "/Unpublished Pages/thank-you.html";
           
         } else {
           console.log('failed');
@@ -324,25 +325,19 @@
                                                                 id="name-input"
                                                                 class="input-field" 
                                                                 type="text" 
-                                                                name="name"
-                                                                onchange   = "quoteFormStarted(this.name);"
-                                                                onpaste    = "this.onchange();">
+                                                                name="name">
                 
                                                                 <label>Email</label>
                                                                 <input id="email-input" 
                                                                 class="input-field" 
                                                                 type="text" 
-                                                                name="email"
-                                                                onchange   = "quoteFormStarted(this.name);"
-                                                                onpaste    = "this.onchange();">
+                                                                name="email">
                 
                                                                 <label>Event Date</label>
                                                                 <input id="subject-input" 
                                                                 class="input-field" 
                                                                 type="date" 
-                                                                name="subject"
-                                                                onchange   = "quoteFormStarted('EventDate');"
-                                                                onpaste    = "this.onchange();">
+                                                                name="subject">
                 
                                                                 <div id="frm_field_13604_container" class="form-field  frm_required_field  frm_top_container">
                                                                   <label class="frm_pos_ frm_primary_label">* Event City &amp; State
@@ -353,9 +348,7 @@
                                                                   id="citySTATE" 
                                                                   name="citySTATE" 
                                                                   value=""  
-                                                                  data-reqmsg="Please enter" 
-                                                                  onchange   = "quoteFormStarted(this.name);"
-                                                                  onpaste    = "this.onchange();" />  
+                                                                  data-reqmsg="Please enter"  />  
                                                               </div>
                 
                 
@@ -370,9 +363,7 @@
                                                                   name="eventDesc" 
                                                                   value=""
                                                                   data-reqmsg="This field cannot be blank."
-                                                                  placeholder="(i.e., Wedding, Corporate Party, etc.)" 
-                                                                  onchange   = "quoteFormStarted(this.name);"
-                                                                  onpaste    = "this.onchange();"/>
+                                                                  placeholder="(i.e., Wedding, Corporate Party, etc.)" />
                                                                 </div>
                 
                                                                 <div id="frm_field_13606_container" class="form-field  frm_required_field  frm_top_container">
@@ -582,7 +573,6 @@
 
             <script src="JS/Components/contact-form.js"></script>
 
-            <script src="JS/Components/cta-bar.js"></script>
             <script src="JS/Components/navBar.js"></script>
             <script src="JS/Components/footer.js"></script>
 
@@ -596,44 +586,7 @@
     <script src='JS/jquery/jquery.min.js' id='jquery-core-js'></script>
     <script src='JS/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
 
-            <script> 
 
-              // Add the following script before the closing body tag
-              // After loading the DOM tree (page)
-              $(function () {
-                //when clicking on a link containing a Thumbnail
-                $('a.thumbnail').click(function (e) {
-                  console.log($(this).find('img').attr('src'))
-                  //cancel the default browser action
-                  e.preventDefault();
-                  //set the scr attribute of the modal's img element
-                  //the value of the scr attribute of the image that is wrapped around the a element clicked by the user
-                 // $('#image-modal .modal-body img').attr('src', $(this).find('img').attr('src'));
-                 // $('#myModal .modal-body img').attr('id', $(this).find('img').attr('id'));
-                 if($(this).find('img').attr('src') == "Images/Logos/darkBackgroundLogo.jpg")
-                 {
-                  document.getElementById("modal-image").src = ($(this).find('img').attr('src'));
-                  document.getElementById("modalBodyTitle").innerHTML = "Hourly Rental Package Includes:";
-                  document.getElementById("modalBodyText").innerHTML = "Hourly photo booth rentals are perfect for shorter events with a clear start and end time. <em>(i.e.: Birthdays, Graduation Open House, Corporate Parties, etc...)</em> Hourly rates vary depending on the size of your event so reach out today for your free quote!";
-                  document.getElementById("modal-title").innerHTML = "Photo Booth Rental by the hour";
-          
-                 }
-                 else if($(this).find('img').attr('src') == "Images/Promo/Setup.jpg")
-                 {
-                  document.getElementById("modal-image").src = ($(this).find('img').attr('src'));
-                  document.getElementById("modalBodyTitle").innerHTML = "All Inclusive Rental includes:"
-                  document.getElementById("includedPackage").innerHTML = "&#9900;Photo Booth rental included for your entire event with unlimted prints for your guests";
-                  document.getElementById("modalBodyText").innerHTML = "Our all inclusive package is ideal for longer events <em>(4+ hours)</em> where you don't want to worry about running out of time with your booth! This package is also perfect for longer events that may have down time where your guests aren't necessarily taking photos the entire time.<br><em>(i.e.: During your Wedding ceremeony, during dinner, etc...)</em>";
-                  document.getElementById("modal-title").innerHTML = "All Inclusive Photo Booth Rental";
-                  
-                 }
-              
-          
-                });
-              })
-          
-            
-            </script>
           
 
         </body>

@@ -39,7 +39,7 @@
         <li id="menu-item-24402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24402 nav-item"><a href="testimonials.html" class="nav-link" title="Testimonials">Testimonials</a></li>
         <li id="menu-item-24645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24645 nav-item"><a href="photo-booth-rental-guide.html" class="nav-link" title="Rental Guide">Rental Guide</a></li>
 
-
+ 
         
        
       </ul>							

@@ -69,7 +69,7 @@
     
     
     
-    <link rel="canonical" href="http://snapboothphotos.com/" />
+    <link rel="canonical" href="http://snapboothphotos.com/FAQs" />
     <link rel='shortlink' href='http://snapboothphotos.com/' />
 
     <style>
@@ -155,74 +155,7 @@
         </script>
 
 
-        <script>
-          function submitToAPI(e) {
 
-
-
-
-
-            e.preventDefault();
-            var URL = "https://vpppichqf5.execute-api.us-east-2.amazonaws.com/prod/email";
-
-
-            var name = document.getElementById("name-input").value;
-            var email = document.getElementById("email-input").value;
-            var subject = document.getElementById("name-input").value;
-            var location = document.getElementById("name-input").value;
-            var eventDesc = document.getElementById("name-input").value;
-            var guestCount = document.getElementById("name-input").value;
-
-
-            var foundUs = document.getElementById("name-input").value;
-
-
-            var message = document.getElementById("message-input").value;
-
-
-            var data = {
-              name: name,
-              subject: subject,
-              email: email,
-              location: location,
-              eventDesc: eventDesc,
-              guestCount: guestCount,
-              foundUs: foundUs,
-              message: message
-            };
-
-            if (name == "" || email == "" || message == "" ) {
-              console.log(data)
-              alert("Please Fill All Required Field");
-              return false;
-            }
-
-
-
-
-
-            var xmlhttp = new XMLHttpRequest();
-            xmlhttp.open("POST", "https://vpppichqf5.execute-api.us-east-2.amazonaws.com/prod/email");
-            xmlhttp.setRequestHeader("Content-Type", "application/json");
-
-            xmlhttp.send(JSON.stringify(data));
-            xmlhttp.onreadystatechange = function () {
-              if (xmlhttp.readyState === 4) {
-                var response = JSON.parse(xmlhttp.responseText);
-                if (xmlhttp.status === 200) {
-                  console.log('successful');
-                  alert("Thank you! Expect an email from us shortly!");
-                } else {
-                  console.log('failed');
-                }
-              }
-            }
-
-            document.getElementById('contact-form').reset();
-
-
-          }
-        </script>
 
         <body class="page-template-default page page-id-24290 fl-builder fl-framework-bootstrap fl-preset-default fl-full-width" itemscope="itemscope" itemtype="https://schema.org/WebPage">
            
@@ -230,6 +163,59 @@
 
                 <!--Nav Bar-->
                 <app-button id="template-tester"></app-button>
+                <script>
+                  function submitToAPI(e) {
+        
+        
+        
+        
+        
+                    e.preventDefault();
+                    var URL = "https://5wk7taa7c3.execute-api.us-east-2.amazonaws.com/default/sendSmallEmail";
+        
+        
+                    var name = document.getElementById("name-input").value;
+                    var email = document.getElementById("email-input").value;
+                    var message = document.getElementById("message-input").value;
+        
+        
+                    var data = {
+                      name: name,
+                      email: email,
+                      message: message
+                    };
+        
+                    if (name == "" || email == "" || message == "" ) {
+                      console.log(data)
+                      alert("Please Fill All Required Field");
+                      return false;
+                    }
+        
+        
+        
+        
+        
+                    var xmlhttp = new XMLHttpRequest();
+                    xmlhttp.open("POST", "https://5wk7taa7c3.execute-api.us-east-2.amazonaws.com/default/sendSmallEmail");
+                    xmlhttp.setRequestHeader("Content-Type", "application/json");
+                    xmlhttp.send(JSON.stringify(data));
+                    xmlhttp.onreadystatechange = function () {
+                      if (xmlhttp.readyState === 4) {
+                        var response = JSON.parse(xmlhttp.responseText);
+                        if (xmlhttp.status === 200) {
+                          console.log('successful');
+                          alert("Thank you! Expect an email from us shortly!");
+                        } else {
+                          console.log('failed');
+                        }
+                      }
+                    }
+        
+                    document.getElementById('contact-form').reset();
+        
+        
+                  }
+                </script>
 
 
               <!---------------------------------------------------------START MAIN--------------------------------------------------------------------------------------------------------------------01-->
@@ -511,7 +497,7 @@
                     
                     
                       <!--  Contact  -->
-                  <section class="contact" id="contact">
+                  <section class="contact" id="newcontact">
                     <div class="contact-wrapper">
 
 
@@ -538,15 +524,7 @@
 
 
 
-                          <input type="hidden" name="frm_action" value="create" />
-                          <input type="hidden" name="form_id" value="461" />
-                          <input type="hidden" name="frm_hide_fields_461" id="frm_hide_fields_461" value="" />
-                          <input type="hidden" name="form_key" value="caxvs" />
-                          <input type="hidden" name="item_meta[0]" value="" />
-                          <input type="hidden" id="frm_submit_entry_461" name="frm_submit_entry_461"
-                            value="ee485a3d3a" /><input type="hidden" name="_wp_http_referer" value="/contact-us/" />
-
-
+                          
 
                           <div id="frm_field_13607_container" class="form-field   frm_top_container">
                             <label class="frm_pos_ frm_primary_label">How can we help you? (optional)
@@ -559,9 +537,10 @@
 
                           <br>
                           <a href="">
-                            <input id="submit-btn" type="submit" value="Submit"
+                            <input id="submit-btn" type="submit" value="Request Quote Now" onclick="submitToAPI(event);"
                               style="width: 100%;">
                           </a>
+                          
 
 
                         </form>

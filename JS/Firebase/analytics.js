@@ -6,6 +6,7 @@
 
  // Your web app's Firebase configuration
  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+ /*
  const firebaseConfig = {
    apiKey: "AIzaSyCoSxR4qkdQhHvvC6YIcRii2vsm8rtu0Vk",
    authDomain: "snap-booth-photos.firebaseapp.com",
@@ -44,7 +45,7 @@ function requestedQuote () {
   firebase.analytics().logEvent('QUOTE_REQUESTED');
 }
 
-/* DETECTS WHEN A USER HAS SCROLLED MORE THAN HALF WAY DOWN A PAGE AND RECORDS [1] EVENT WHEN THEY'VE SCROLLED 
+ DETECTS WHEN A USER HAS SCROLLED MORE THAN HALF WAY DOWN A PAGE AND RECORDS [1] EVENT WHEN THEY'VE SCROLLED 
 
 let scrolling = false;
 let notScrolled = true;
