@@ -318,7 +318,7 @@
     }
 
     #request-a-quote-title{
-        font-size: 28px;
+        font-size: 26px;
 
     }
     #request-a-quote-main-text{
@@ -339,12 +339,14 @@
       }
 
     section#timeline article div.inner h2{
+      padding-right: 5px;
         width: 18vw;
         font-size: 12px;
 
       }
 
       section#timeline article div.inner p{
+        padding-right: 5px;
         width: 18vw;
         height: 57vw;
         font-size: 10.25px;
@@ -363,7 +365,7 @@
     }
 
     #request-a-quote-title{
-        font-size: 28px;
+        font-size: 26px;
 
     }
     #request-a-quote-main-text{
@@ -384,12 +386,14 @@
       }
 
     section#timeline article div.inner h2{
+      padding-right: 5px;
         width: 16.5vw;
         font-size: 10px;
 
       }
 
       section#timeline article div.inner p{
+        padding-right: 5px;
         width: 16.5vw;
         height: 60vw;
         font-size: 9px;
@@ -407,7 +411,7 @@
     }
 
     #request-a-quote-title{
-        font-size: 28px;
+        font-size: 26px;
 
     }
     #request-a-quote-main-text{
@@ -456,7 +460,7 @@
     }
 
     #request-a-quote-title{
-        font-size: 26px;
+        font-size: 24px;
 
     }
     #request-a-quote-main-text{
