@@ -154,6 +154,76 @@
           gtag('config', 'G-CKJCRFZ56S');
         </script>
 
+
+        <script>
+          function submitToAPI(e) {
+
+
+
+
+
+            e.preventDefault();
+            var URL = "https://vpppichqf5.execute-api.us-east-2.amazonaws.com/prod/email";
+
+
+            var name = document.getElementById("name-input").value;
+            var email = document.getElementById("email-input").value;
+            var subject = document.getElementById("name-input").value;
+            var location = document.getElementById("name-input").value;
+            var eventDesc = document.getElementById("name-input").value;
+            var guestCount = document.getElementById("name-input").value;
+
+
+            var foundUs = document.getElementById("name-input").value;
+
+
+            var message = document.getElementById("message-input").value;
+
+
+            var data = {
+              name: name,
+              subject: subject,
+              email: email,
+              location: location,
+              eventDesc: eventDesc,
+              guestCount: guestCount,
+              foundUs: foundUs,
+              message: message
+            };
+
+            if (name == "" || email == "" || message == "" ) {
+              console.log(data)
+              alert("Please Fill All Required Field");
+              return false;
+            }
+
+
+
+
+
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("POST", "https://vpppichqf5.execute-api.us-east-2.amazonaws.com/prod/email");
+            xmlhttp.setRequestHeader("Content-Type", "application/json");
+
+            xmlhttp.send(JSON.stringify(data));
+            xmlhttp.onreadystatechange = function () {
+              if (xmlhttp.readyState === 4) {
+                var response = JSON.parse(xmlhttp.responseText);
+                if (xmlhttp.status === 200) {
+                  console.log('successful');
+                  alert("Thank you! Expect an email from us shortly!");
+                } else {
+                  console.log('failed');
+                }
+              }
+            }
+
+            document.getElementById('contact-form').reset();
+
+
+          }
+        </script>
+
         <body class="page-template-default page page-id-24290 fl-builder fl-framework-bootstrap fl-preset-default fl-full-width" itemscope="itemscope" itemtype="https://schema.org/WebPage">
            
             <div class="fl-page">
@@ -204,23 +274,6 @@
                             </div>
                           </div>
 
-
-
-
-
-
-
-
-
-                
-
-
-                                            <ul id="faqqs">
-                                              
-
-
-
-                                            </ul>
 
 
 
@@ -470,17 +523,13 @@
                           id="name-input"
                           class="input-field" 
                           type="text" 
-                          name="name"
-                          onchange   = "quoteFormStarted(this.name);"
-                          onpaste    = "this.onchange();">
+                          name="name">
 
                           <label>Email</label>
                           <input id="email-input" 
                           class="input-field" 
                           type="text" 
-                          name="email"
-                          onchange   = "quoteFormStarted(this.name);"
-                          onpaste    = "this.onchange();">
+                          name="email">
 
 
 
@@ -509,7 +558,7 @@
                           </div>
 
                           <br>
-                          <a href="/thank-you.html">
+                          <a href="">
                             <input id="submit-btn" type="submit" value="Submit"
                               style="width: 100%;">
                           </a>
@@ -624,52 +673,6 @@
     <script src='JS/jquery/jquery.min.js' id='jquery-core-js'></script>
     <script src='JS/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
 
-            <script> 
-
-              // Add the following script before the closing body tag
-              // After loading the DOM tree (page)
-              $(function () {
-                //when clicking on a link containing a Thumbnail
-                $('a.thumbnail').click(function (e) {
-                  console.log($(this).find('img').attr('src'))
-                  //cancel the default browser action
-                  e.preventDefault();
-                  //set the scr attribute of the modal's img element
-                  //the value of the scr attribute of the image that is wrapped around the a element clicked by the user
-                 // $('#image-modal .modal-body img').attr('src', $(this).find('img').attr('src'));
-                 // $('#myModal .modal-body img').attr('id', $(this).find('img').attr('id'));
-                 if($(this).find('img').attr('src') == "Images/Logos/darkBackgroundLogo.jpg")
-                 {
-                  document.getElementById("modal-image").src = ($(this).find('img').attr('src'));
-                  document.getElementById("modalBodyTitle").innerHTML = "Hourly Rental Package Includes:";
-                  document.getElementById("modalBodyText").innerHTML = "Hourly photo booth rentals are perfect for shorter events with a clear start and end time. <em>(i.e.: Birthdays, Graduation Open House, Corporate Parties, etc...)</em> Hourly rates vary depending on the size of your event so reach out today for your free quote!";
-                  document.getElementById("modal-title").innerHTML = "Photo Booth Rental by the hour";
-          
-                 }
-                 else if($(this).find('img').attr('src') == "Images/Promo/Setup.jpg")
-                 {
-                  document.getElementById("modal-image").src = ($(this).find('img').attr('src'));
-                  document.getElementById("modalBodyTitle").innerHTML = "All Inclusive Rental includes:"
-                  document.getElementById("includedPackage").innerHTML = "&#9900;Photo Booth rental included for your entire event with unlimted prints for your guests";
-                  document.getElementById("modalBodyText").innerHTML = "Our all inclusive package is ideal for longer events <em>(4+ hours)</em> where you don't want to worry about running out of time with your booth! This package is also perfect for longer events that may have down time where your guests aren't necessarily taking photos the entire time.<br><em>(i.e.: During your Wedding ceremeony, during dinner, etc...)</em>";
-                  document.getElementById("modal-title").innerHTML = "All Inclusive Photo Booth Rental";
-                  
-                 }
-              
-          
-                });
-              })
-          
-            
-            </script>
-
-            <script>
-              var quadimages = document.querySelectorAll("#FAQquad figure");
-                for(i=0; i<quadimages.length; i++) {
-                  quadimages[i].addEventListener('mouseover', function(){ this.classList.toggle("expanded");  }); 
-                  quadimages[i].addEventListener('mouseout', function(){ this.classList.toggle("expanded");  }); 
-                }
-            </script>
           
 
         </body>

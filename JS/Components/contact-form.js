@@ -12,17 +12,13 @@
       id="name-input"
       class="input-field" 
       type="text" 
-      name="name"
-      onchange   = "quoteFormStarted(this.name);"
-      onpaste    = "this.onchange();">
+      name="name">
 
       <label>Email</label>
       <input id="email-input" 
       class="input-field" 
       type="text" 
-      name="email"
-      onchange   = "quoteFormStarted(this.name);"
-      onpaste    = "this.onchange();">
+      name="email">
 
       <label>Event Date</label>
       <input id="subject-input" 
@@ -41,9 +37,7 @@
         id="citySTATE" 
         name="citySTATE" 
         value=""  
-        data-reqmsg="Please enter" 
-        onchange   = "quoteFormStarted(this.name);"
-        onpaste    = "this.onchange();" />  
+        data-reqmsg="Please enter" />  
     </div>
 
 
@@ -58,9 +52,7 @@
         name="eventDesc" 
         value=""
         data-reqmsg="This field cannot be blank."
-        placeholder="(i.e., Wedding, Corporate Party, etc.)" 
-        onchange   = "quoteFormStarted(this.name);"
-        onpaste    = "this.onchange();"/>
+        placeholder="(i.e., Wedding, Corporate Party, etc.)" />
       </div>
 
       <div id="frm_field_13606_container" class="form-field  frm_required_field  frm_top_container">

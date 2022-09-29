@@ -150,6 +150,78 @@
           gtag('config', 'G-CKJCRFZ56S');
         </script>
 
+
+
+
+<script>
+  function submitToAPI(e) {
+
+
+
+
+
+    e.preventDefault();
+    var URL = "https://vpppichqf5.execute-api.us-east-2.amazonaws.com/prod/email";
+
+
+    var name = document.getElementById("name-input").value;
+    var email = document.getElementById("email-input").value;
+    var subject = document.getElementById("subject-input").value;
+    var location = document.getElementById("citySTATE").value;
+    var eventDesc = document.getElementById("eventDesc").value;
+    var guestCount = document.getElementById("guestCount").value;
+
+
+    var foundUs = document.getElementById("field_t1zhai").value
+
+
+    var message = document.getElementById("message-input").value;
+
+
+    var data = {
+      name: name,
+      subject: subject,
+      email: email,
+      location: location,
+      eventDesc: eventDesc,
+      guestCount: guestCount,
+      foundUs: foundUs,
+      message: message
+    };
+
+    if (name == "" || subject == "" || email == "" || location == "" || eventDesc == "" || guestCount == "" || foundUs == "") {
+      console.log(data)
+      alert("Please Fill All Required Field");
+      return false;
+    }
+
+
+
+
+
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("POST", "https://vpppichqf5.execute-api.us-east-2.amazonaws.com/prod/email");
+    xmlhttp.setRequestHeader("Content-Type", "application/json");
+
+    xmlhttp.send(JSON.stringify(data));
+    xmlhttp.onreadystatechange = function () {
+      if (xmlhttp.readyState === 4) {
+        var response = JSON.parse(xmlhttp.responseText);
+        if (xmlhttp.status === 200) {
+          console.log('successful');
+          
+        } else {
+          console.log('failed');
+        }
+      }
+    }
+
+    document.getElementById('contact-form').reset();
+
+
+  }
+</script>
+
         <body class="page-template-default page page-id-24290 fl-builder fl-framework-bootstrap fl-preset-default fl-full-width"
         itemscope="itemscope" itemtype="https://schema.org/WebPage">
            
