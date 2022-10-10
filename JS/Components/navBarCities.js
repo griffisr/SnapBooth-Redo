@@ -30,11 +30,11 @@
       <ul id="menu-maintop" class="nav navbar-nav navbar-right menu fl-theme-menu">
         
 
-      <li id="menu-item-24403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24403 nav-item"><a href="request-a-quote.html" class="nav-link" title="Request Quote">Request Quote</a></li>
+      <li id="menu-item-24403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24403 nav-item"><a href="../../request-a-quote.html" class="nav-link" title="Request Quote">Request Quote</a></li>
 
-        <li id="menu-item-24404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24645 nav-item"><a href="../FAQs.html" class="nav-link" title="FAQs">FAQs</a></li>
-        <li id="menu-item-24402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24402 nav-item"><a href="../testimonials.html" class="nav-link" title="Testimonials">Testimonials</a></li>
-        <li id="menu-item-24645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24645 nav-item"><a href="../photo-booth-rental-guide.html" class="nav-link" title="Rental Guide">Rental Guide</a></li>
+        <li id="menu-item-24404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24645 nav-item"><a href="../../FAQs.html" class="nav-link" title="FAQs">FAQs</a></li>
+        <li id="menu-item-24402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24402 nav-item"><a href="../../testimonials.html" class="nav-link" title="Testimonials">Testimonials</a></li>
+        <li id="menu-item-24645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24645 nav-item"><a href="../../photo-booth-rental-guide.html" class="nav-link" title="Rental Guide">Rental Guide</a></li>
 
  
         
@@ -80,11 +80,11 @@
                                       <ul id="menu-maintop-1" class="nav navbar-nav navbar-right menu fl-theme-menu">
                       
                       
-                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24403 nav-item"><a href="request-a-quote.html" class="nav-link" title="Request Quote">Request Quote</a></li>
+                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24403 nav-item"><a href="../../request-a-quote.html" class="nav-link" title="Request Quote">Request Quote</a></li>
 
-                                          <li id="menu-item-24404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24645 nav-item"><a href="../FAQs.html" class="nav-link" title="FAQs">FAQs</a></li>
-                                          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24402 nav-item"> <a href="../testimonials.html" class="nav-link" title="Testimonials">Testimonials</a></li>
-                                          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24645 nav-item"><a href="../photo-booth-rental-guide.html" class="nav-link" title ="Rental Guide">Rental Guide</a></li>
+                                          <li id="menu-item-24404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24645 nav-item"><a href="../../FAQs.html" class="nav-link" title="FAQs">FAQs</a></li>
+                                          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24402 nav-item"> <a href="../../testimonials.html" class="nav-link" title="Testimonials">Testimonials</a></li>
+                                          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24645 nav-item"><a href="../../photo-booth-rental-guide.html" class="nav-link" title ="Rental Guide">Rental Guide</a></li>
                                           
                                       </ul>							
                                   </div>
