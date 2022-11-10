@@ -26,7 +26,9 @@
   width: 100% !important;
 }
 
-
+#photo-booth-rental{
+  background-color: rgba(255, 255, 255, 0.792);
+}
 
 
 /****************** Next Steps  *****************/
@@ -184,6 +186,13 @@
       margin-left: -20%;
     }
 
+    .request-a-quote-mobile-next-steps{
+
+      width: 20vw;
+  
+  
+  }
+
   }
 
 
@@ -210,6 +219,13 @@
     section#timeline {
       margin-left: -15%;
     }
+
+    .request-a-quote-mobile-next-steps{
+
+      width: 20vw;
+  
+  
+  }
 
   }
 
@@ -371,7 +387,7 @@
   }
 
 
-
+/*********************************************************************/
 
   @media only screen and (min-width: 769px) {
 
@@ -387,11 +403,24 @@
       background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/quote-cover-blue+copy.jpg");
         display: flex;
     }
+
+
+
+    #request-a-quote-wrap{
+      background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Promo/AdobeStock_144839552_Preview.jpeg");
+      
+    }
 }
 
 
 
 @media only screen and (max-width: 768px) {
+
+
+  #request-a-quote-wrap{
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Promo/AdobeStock_144839552_Preview.jpeg");
+    
+  }
   
   .fl-node-590842fbe3955 {
     /*       padding-left: 35vw !important;   */
@@ -452,7 +481,7 @@
 
     #request-a-quote{
 
-      background-image: url("");
+        background-image: url("");
         display: flex;
         flex-direction: row;
         justify-content: space-between;
