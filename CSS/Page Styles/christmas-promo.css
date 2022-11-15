@@ -57,6 +57,8 @@
   justify-content: space-between;
 }
 
+
+
 #request-a-quote-wrap {
   background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Promo/AdobeStock_144839552_Preview.jpeg");
 
@@ -67,15 +69,25 @@
 
 
 #contact-form{
-  background-color: rgba(255, 255, 255, 0.792);
   padding: 10px;
 
   min-height: 20vh;
 }
+#contact-form label{
+
+  background-color: rgba(255, 255, 255, 0.792);
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px 0px 10px;
+}
+
 
 
 
 #cta-wrapper{
+  display: flex;
+  justify-content:space-evenly;
+  background-color: rgba(255, 255, 255, 0.792);
   margin: 0;
 }
 
@@ -88,7 +100,13 @@
   overflow:unset;
 }
 
+#request-a-quote-main-text{
+  max-width: inherit;
+}
+
 @media only screen and (min-width: 768px){
+
+
 
   .fl-node-58eb15a0195c7{
     background-color: rgba(255, 255, 255, 0.792);
@@ -98,7 +116,7 @@
   
 
   .fl-node-58e97f2eb9860{
-    width: 48%;
+    width: 88%;
 
   }
 
@@ -122,14 +140,22 @@
 @media only screen and (max-width: 767px){
 
 
+  #cta-wrapper{
+    flex-direction: column;
+  }
 
   .fl-node-58eb15a0195c7{
     background-color: rgba(255, 255, 255, 0.792);
     margin: 0px 25px 10px 25px;
   
   }
-  
-  #request-a-quote-wrap {
+  #photo-booth-rental h2{
+    text-align: center;
+    padding: 0px 3px 0px;
+    font-size: 26px;
+  }
+  #request-a-quote-main-text {
+    font-size: 12px;
   
 
   }
@@ -144,7 +170,7 @@
   }
 
   .fl-node-58e97f2eb9860{
-    width: 30%;
+    width: 80%;
 
   }
 
