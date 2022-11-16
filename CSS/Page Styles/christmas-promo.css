@@ -101,8 +101,34 @@
 }
 
 #request-a-quote-main-text{
+  font-size: 20px;
   max-width: inherit;
+  padding-top: 2vh;
 }
+
+
+
+
+#photo-booth-memory-section{
+  padding-bottom: 20px;
+}
+
+
+
+
+
+#photo-booth-memory-wrapper{
+  display:flex;
+  flex-direction: row-reverse;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+  #photo-booth-memory-text-wrapper{
+    z-index: 5;
+  }
+
 
 @media only screen and (min-width: 768px){
 
@@ -191,16 +217,164 @@
 }
 
 
-@media only screen and (max-width: 315px){
+@media all and (min-width: 600px) {
 
-  #photo-booth-rental h2{
-    text-align: center;
-    padding: 0px 3px 0px;
-    font-size: 26px;
+  .desktop-text{
+
+    visibility: visible;
+    
+
+  }
+  .mobile-text{
+
+    display: none;
+
+  }
+}
+
+@media all and (max-width: 600px) {
+
+  .desktop-text{
+
+    display: none;
+
+  }
+  .mobile-text{
+
+    visibility: visible;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media all and (min-width: 500px) {
+
+
+    #photo-booth-memory-text-wrapper{
+
+      margin-bottom: 4vh;
+
+    }
+  }
+
+  
+
+
+  /**************CUTOFF FOR VERTICAL*****************/
+  @media all and (max-width: 500px) {
+    
+
+    #photo-booth-memory-header-wrapper{
+
+      margin-bottom: 3vh;
+
+    }
+
+    #photo-booth-memory-text-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #photo-booth-memory-text{
+      max-width: 200vw;
+    }
+
+
+
+    #photo-booth-memory-text{
+      font-size: 16px;
+      padding-left: 2vw;
+      background-color: #ededeca3;
+    }
+
+
+
+
+  }
+
+
+  @media all and (max-width: 420px) {
+
+    #photo-booth-memory-text{
+      font-size: 15.5px;
+    }
+
+
+  }
+
+  @media all and (max-width: 375px) {
+
+    #contact-form{
+      max-width: 40vw;
+    }
+    #photo-booth-memory-text{
+      font-size: 14.5px;
+    }
+
+  }
+
+  @media all and (max-width: 350px) {
+
+    #photo-booth-memory-text{
+      font-size: 13px;
+    }
+
+  }
+
+
+  @media all and (max-width: 330px) {
+
+
+    #photo-booth-memory-text{
+      padding-left: 5px;
+      font-size: 12px;
+    }
+
   }
 
 
 
- 
+  @media only screen and (max-width: 315px){
 
-}
+    #photo-booth-rental h2{
+      text-align: center;
+      padding: 0px 3px 0px;
+      font-size: 26px;
+    }
+  
+  }
