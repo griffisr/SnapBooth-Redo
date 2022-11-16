@@ -76,7 +76,7 @@
                                   <button type="button" class="navbar-toggle navbar-toggler" data-toggle="collapse" data-target=".fl-page-nav-collapse">
                       
                       <!--CHANGE THE HAMBURGER MENU ICON-->
-                                      <span><span class="sr-only" style="position: relative;"><img src="../Images/menu.png" style="height: 55px; width: auto;" alt= "Photo Booth Near Me"></img></span>
+                                      <span><span class="sr-only" style="position: relative;"><img src="Images/menu.png" style="height: 55px; width: auto;" alt= "Photo Booth Near Me"></img></span>
                                   </button>
 
                                   <div class="fl-page-nav-collapse collapse navbar-collapse">
