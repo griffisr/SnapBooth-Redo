@@ -5,6 +5,46 @@
   min-height: 50vh;
 }
 
+#promo-header{
+
+  padding: 5px;
+  border-radius: 20px;
+  margin: 10px 5px 10px;
+  font-size: .8em;
+}
+.heading-title{
+  background-color: rgba(255, 255, 255, 0.792);
+  color: #c84257;
+	font-family: 'Mountains of Christmas';
+	text-align: center;
+	grid-row: 1;
+	grid-column: 1/4;
+	align-self: center;
+	justify-self: center;
+	font-size: 6rem;
+
+  padding: 5px;
+  border-radius: 20px;
+  margin: 10px 5px 10px;
+}
+#request-a-quote-title{
+  background-color: rgba(255, 255, 255, 0.792);
+  color: #c84257;
+	font-family: 'Mountains of Christmas';
+	text-align: center;
+	grid-row: 1;
+	grid-column: 1/4;
+	align-self: center;
+	justify-self: center;
+	font-size: 3rem;
+  margin-bottom: 0%;
+  margin-left: .5vw;
+
+  padding: 5px;
+  border-radius: 20px;
+  margin: 10px 5px 10px;
+}
+
 .fl-node-58eb15a0195c7{
   background-color: rgba(255, 255, 255, 0.792);
 
@@ -43,6 +83,12 @@
   background-color: rgba(255, 255, 255, 0.792);
 }
 
+
+#video-wrapper{
+  min-width: 50%;
+  padding-top: 20px;
+}
+
 /****************** Next Steps  *****************/
 #quote-wrapper {
   display: flex;
@@ -60,7 +106,8 @@
 
 
 #request-a-quote-wrap {
-  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Promo/AdobeStock_144839552_Preview.jpeg");
+  padding-top: 0px;
+  background-image: url("../../Images/Promo/candy-canes.jpg");
 
   background-size:cover;
   background-position-x: 39%;
@@ -103,14 +150,23 @@
 #request-a-quote-main-text{
   font-size: 20px;
   max-width: inherit;
-  padding-top: 2vh;
+
+  background-color: rgba(255, 255, 255, 0.792);
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px 5px 10px;
 }
 
 
 
 
 #photo-booth-memory-section{
-  padding-bottom: 20px;
+
+  padding-top: 0px;
+
+  
+
+  padding-bottom: 2vh;
 }
 
 
@@ -128,6 +184,27 @@
   #photo-booth-memory-text-wrapper{
     z-index: 5;
   }
+
+
+
+
+  .sl-img-1 {
+    background-image: url("../../Images/PhotoStrips/dz-bid-day.jpg")!important;
+    background-size:auto;
+  }
+  .sl-img-2 {
+    background-image: url("../../Images/PhotoStrips/3rdThursday.jpg")!important;
+  }
+  .sl-img-3 {
+    background-image: url("../../Images/PhotoStrips/oktoberfest.jpg")!important;
+  }
+
+  .sl-img-7 {
+    background-image: url("../../Images/PhotoStrips/4-pics-3rdThursday.png")!important;
+  }
+
+
+
 
 
 @media only screen and (min-width: 768px){
