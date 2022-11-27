@@ -86,6 +86,7 @@
 
 #video-wrapper{
   min-width: 50%;
+  max-width: 75%;
   padding-top: 20px;
 }
 
