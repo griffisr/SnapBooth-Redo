@@ -168,15 +168,15 @@
     var URL = "https://vpppichqf5.execute-api.us-east-2.amazonaws.com/prod/email";
 
 
-    var name = document.getElementById("name-input").value;
+    var name = "";
     var email = document.getElementById("email-input").value;
     var subject = document.getElementById("subject-input").value;
     var location = document.getElementById("citySTATE").value;
-    var eventDesc = document.getElementById("eventDesc").value;
-    var guestCount = document.getElementById("guestCount").value;
+    var eventDesc = "";
+    var guestCount = "";
 
 
-    var foundUs = document.getElementById("field_t1zhai").value
+    var foundUs = "";
 
 
     var message = document.getElementById("message-input").value;
@@ -193,7 +193,7 @@
       message: message
     };
 
-    if (name == "" || subject == "" || email == "" || location == "" || eventDesc == "" || guestCount == "" || foundUs == "") {
+    if (subject == "" || email == "" || location == "") {
       console.log(data)
       alert("Please Fill All Required Field");
       return false;
