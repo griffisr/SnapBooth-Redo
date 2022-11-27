@@ -368,6 +368,7 @@
 
     #photo-booth-memory-text-wrapper{
 
+      min-width: 45%;
       margin-bottom: 4vh;
 
     }
