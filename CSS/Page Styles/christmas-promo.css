@@ -190,18 +190,18 @@
 
 
   .sl-img-1 {
-    background-image: url("../../Images/PhotoStrips/dz-bid-day.jpg")!important;
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/dz-bid-day.jpg")!important;
     background-size:auto;
   }
   .sl-img-2 {
-    background-image: url("../../Images/PhotoStrips/3rdThursday.jpg")!important;
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/3rdThursday.jpg")!important;
   }
   .sl-img-3 {
-    background-image: url("../../Images/PhotoStrips/oktoberfest.jpg")!important;
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/oktoberfest.jpg")!important;
   }
 
   .sl-img-7 {
-    background-image: url("../../Images/PhotoStrips/4-pics-3rdThursday.png")!important;
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/4-pics-3rdThursday.png")!important;
   }
 
 

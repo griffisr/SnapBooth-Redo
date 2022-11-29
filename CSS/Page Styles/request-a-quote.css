@@ -10,6 +10,7 @@
 }
 .request-a-quote-mobile-next-steps{
 
+  background-color: #8f9fa9;
     width: 50vw;
 
 
@@ -384,7 +385,6 @@
 
     .request-a-quote-mobile-next-steps{
 
-      background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/quote-cover-blue+copy.jpg");
         display: flex;
     }
 }
@@ -756,4 +756,17 @@
 
       }
   }
+
+
+    /*default mobile view smaller than 381 px  */
+    @media (min-width: 1800px) {
+
+      .request-a-quote-mobile-next-steps{
+
+        margin-right: 10vw;
+      
+      
+      }
+    }
+  
 
