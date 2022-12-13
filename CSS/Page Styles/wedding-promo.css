@@ -1,0 +1,480 @@
+
+
+#request-a-quote-wrap {
+  padding: 15px 0px 15px 0px;
+  min-height: 50vh;
+}
+ 
+#promo-header{
+
+  padding: 5px;
+  border-radius: 20px;
+  margin: 10px 5px 10px;
+  font-size: .8em;
+}
+.heading-title{
+  background-color: rgba(255, 255, 255, 0.792);
+  color: #c84257;
+	font-family: 'Mountains of Christmas';
+	text-align: center;
+	grid-row: 1;
+	grid-column: 1/4;
+	align-self: center;
+	justify-self: center;
+	font-size: 6rem;
+
+  padding: 5px;
+  border-radius: 20px;
+  margin: 10px 5px 10px;
+}
+#request-a-quote-title{
+  background-color: rgba(255, 255, 255, 0.792);
+  color: #c84257;
+	font-family: 'Mountains of Christmas';
+	text-align: center;
+	grid-row: 1;
+	grid-column: 1/4;
+	align-self: center;
+	justify-self: center;
+	font-size: 3rem;
+  margin-bottom: 0%;
+  margin-left: .5vw;
+
+  padding: 5px;
+  border-radius: 20px;
+  margin: 10px 5px 10px;
+}
+
+.fl-node-58eb15a0195c7{
+  background-color: rgba(255, 255, 255, 0.792);
+
+}
+
+#subject-input {
+  width: 100%;
+}
+
+#photo-booth-rental{
+  margin: 0px 5px 0px 0px;
+}
+
+
+#photo-booth-rental p{
+  text-align: -webkit-auto;
+  padding: 0px 15px 0px;
+}
+
+#photo-booth-rental h2{
+  text-align: center;
+  padding: 0px 3px 0px;
+  font-size: 30px;
+}
+
+
+.fl-node-590842fbe3955 {
+  padding-left: 0% !important;
+  width: 100% !important;
+}
+.fl-node-58dabc53d4df8 {
+  padding-left: 0% !important;
+  width: 100% !important;
+}
+#photo-booth-rental {
+  background-color: rgba(255, 255, 255, 0.792);
+}
+
+
+#video-wrapper{
+  min-width: 50%;
+  max-width: 55%;
+  padding-top: 20px;
+}
+
+/****************** Next Steps  *****************/
+#quote-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#request-a-quote {
+  background-image: url("");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+#request-a-quote-wrap {
+  padding-top: 0px;
+  background-image: url("../../Images/Promo/candy-canes.jpg");
+
+  background-size:cover;
+  background-position-x: 39%;
+  background-repeat: no-repeat;
+
+  z-index: 1;
+  
+}
+
+
+#contact-form{
+  padding: 10px;
+
+  min-height: 20vh;
+}
+#contact-form label{
+
+  background-color: rgba(255, 255, 255, 0.792);
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px 0px 10px;
+}
+
+
+
+
+#cta-wrapper{
+  display: flex;
+  justify-content:space-evenly;
+  background-color: rgba(255, 255, 255, 0.792);
+  margin: 0;
+}
+
+.center-title{
+  text-align: center;
+}
+
+#why-accordion{
+
+  overflow:unset;
+}
+
+#request-a-quote-main-text{
+  font-size: 20px;
+  max-width: inherit;
+
+  background-color: rgba(255, 255, 255, 0.792);
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px 5px 10px;
+}
+
+
+
+
+#photo-booth-memory-section{
+
+  padding-top: 0px;
+
+  
+
+  padding-bottom: 2vh;
+}
+
+
+
+
+
+#photo-booth-memory-wrapper{
+  display:flex;
+  flex-direction: row-reverse;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+  #photo-booth-memory-text-wrapper{
+    z-index: 5;
+  }
+
+
+
+
+  .sl-img-1 {
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/dz-bid-day.jpg")!important;
+    background-size:auto;
+  }
+  .sl-img-2 {
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/3rdThursday.jpg")!important;
+  }
+  .sl-img-3 {
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/oktoberfest.jpg")!important;
+  }
+
+  .sl-img-7 {
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/4-pics-3rdThursday.png")!important;
+  }
+
+
+
+  .cta-tag{
+    text-align: center;
+  }
+
+
+
+@media only screen and (min-width: 768px){
+
+
+
+  .fl-node-58eb15a0195c7{
+    background-color: rgba(255, 255, 255, 0.792);
+    margin: 0px 25px 10px;
+  
+  }
+  
+
+  .fl-node-58e97f2eb9860{
+    width: 88%;
+
+  }
+
+  .fl-node-58dabc53d4df8{
+
+    width: 48%!important;
+
+  }
+
+  #desktop-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    min-height: 60vh;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+  #cta-wrapper{
+    flex-direction: column;
+  }
+
+  .fl-node-58eb15a0195c7{
+    background-color: rgba(255, 255, 255, 0.792);
+    margin: 0px 25px 10px 25px;
+  
+  }
+  #photo-booth-rental h2{
+    text-align: center;
+    padding: 0px 3px 0px;
+    font-size: 26px;
+  }
+  #request-a-quote-main-text {
+    font-size: 12px;
+  
+
+  }
+
+  #contact-form label{
+    font-size: 12px;
+  }
+
+  #submit-btn{
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .fl-node-58e97f2eb9860{
+    width: 90%;
+
+  }
+
+  .fl-node-58dabc53d4df8{
+
+    width: 60%!important;
+
+  }
+
+  #desktop-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    min-height: 30vh;
+  }
+
+}
+
+
+@media all and (min-width: 600px) {
+
+  .desktop-text{
+
+    visibility: visible;
+    
+
+  }
+  .mobile-text{
+
+    display: none;
+
+  }
+}
+
+@media all and (max-width: 600px) {
+
+  .desktop-text{
+
+    display: none;
+
+  }
+  .mobile-text{
+
+    visibility: visible;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media all and (min-width: 500px) {
+
+
+    #photo-booth-memory-text-wrapper{
+
+      min-width: 45%;
+      margin-bottom: 4vh;
+
+    }
+  }
+
+  
+
+
+  /**************CUTOFF FOR VERTICAL*****************/
+  @media all and (max-width: 500px) {
+    
+
+    #request-a-quote-title{
+      font-size: 2.2rem;
+    }
+
+
+
+    #photo-booth-memory-header-wrapper{
+
+      margin-bottom: 3vh;
+
+    }
+
+    #photo-booth-memory-text-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #photo-booth-memory-text{
+      max-width: 200vw;
+    }
+
+
+
+    #photo-booth-memory-text{
+      font-size: 16px;
+      padding-left: 2vw;
+      background-color: #ededeca3;
+    }
+
+
+
+
+  }
+
+
+  @media all and (max-width: 420px) {
+
+    #photo-booth-memory-text{
+      font-size: 15.5px;
+    }
+
+
+  }
+
+  @media all and (max-width: 375px) {
+
+    #contact-form{
+      max-width: 40vw;
+    }
+    #photo-booth-memory-text{
+      font-size: 14.5px;
+    }
+
+  }
+
+  @media all and (max-width: 350px) {
+
+    #promo-header{
+      font-size: .6em;
+    }
+
+    #photo-booth-memory-text{
+      font-size: 13px;
+    }
+
+  }
+
+
+  @media all and (max-width: 330px) {
+
+
+    #photo-booth-memory-text{
+      padding-left: 5px;
+      font-size: 12px;
+    }
+
+  }
+
+
+
+  @media only screen and (max-width: 315px){
+
+    #photo-booth-rental h2{
+      text-align: center;
+      padding: 0px 3px 0px;
+      font-size: 26px;
+    }
+
+    #request-a-quote-title{
+      font-size: 1.9rem;
+    }
+  
+  }

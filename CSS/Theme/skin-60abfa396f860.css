@@ -1651,11 +1651,12 @@ body.fl-framework-bootstrap-4 nav a.no-menu {
 .fl-page-bar {
   border-bottom: 1px solid #e6e6e6;
   font-size: 12px;
-  line-height: 14px;
+  font-weight: bold;
+  line-height: 10px;
 
 
   border-color: #515942;
-  background-color: #A38B64;
+  background-color: #d6b074;
   color: #fff;
 }
 .fl-page-bar *,
@@ -1671,7 +1672,7 @@ body.fl-framework-bootstrap-4 nav a.no-menu {
 .fl-page-bar a *,
 .fl-page-bar a.fas,
 .fl-page-bar a.fab {
-  color: #c1dee6;
+  color: #0a3d4d;
 }
 .fl-page-bar a:hover,
 .fl-page-bar a:focus,

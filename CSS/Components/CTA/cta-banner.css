@@ -1,9 +1,9 @@
 .apply-cta-bar {
     width: 100%;
     height: auto;
-    /*   min-height: 300px; */
+    position: relative;
   
-    background-color: rgba(104, 105, 97, 0.12);
+    background-color: #ececec88;
     color: #001929;
     padding: 1em 0;
   }
