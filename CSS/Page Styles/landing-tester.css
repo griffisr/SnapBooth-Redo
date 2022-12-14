@@ -356,8 +356,8 @@ input[type=submit] {
 }
 
 .pp-button{
-    background-color: #b2b2b2;
-    color: #0a0a0a;
+    background-color: #d6b074;
+    color: #f4f4f4;
     border-color: #f4f4f4;
     position: relative;
     vertical-align: middle;
@@ -365,8 +365,19 @@ input[type=submit] {
     border-radius: 8px;
 }
 
+.pp-button:hover{
+  background-color: #725F3B;
+  color: #EDEDED;
+  border-color: #f4f4f4;
+}
+
 .pp-button-cta{
     background-color: #ffffff;
+    color: #0a0a0a;
+}
+.pp-button-cta:hover{
+  background-color: rgb(196, 195, 195);
+  color: #0a0a0a;
 }
 .pp-button-img{
     height: 15px;
