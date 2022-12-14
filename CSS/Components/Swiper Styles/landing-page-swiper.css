@@ -1,204 +1,536 @@
-html, body {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*Removing touch highlights on smartphones*/
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  padding-top: 0;
+  font-family: "Rubik", sans-serif;
+}
+.main-wrapper {
+  margin: 0 auto;
+  height: 100%;
+  background-color: #737373;
+}
+.fl-node-58e9c078da856{
+  height: 100%;
+}
+#gallery-2x6{
+  height: 100%;
+}
+.sl-header-wrapper{
+  min-width: 50vw;
+  padding: 10px 20px 2vh 20px;
+
+}
+.swiper-container > .swiper-wrapper{
+  transition-timing-function : linear;
+}
+.swiper-slide{
+  margin-left: 2vw;
+
+}
+/*-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------*/
+/* SLIDE LAYOUT
+/*-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------*/
+.sl-wrapper {
+  position: relative;
+  filter: brightness(0.45);
+  background-color: #ffffff;
+}
+.sl-nav {
+  position: relative;
+  width: 100px;
+  height: 60px;
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev,
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  background-image: url();
+}
+
+/*-------------------------------------------------------*/
+/* Card Bkg Img
+/*-------------------------------------------------------*/
+
+.sl-bkg-img,
+.sl-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.sl-img-1 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/3rdThursday.jpg");
+  background-size:auto;
+}
+.sl-img-2 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/Photo+Strip.png");
+}
+.sl-img-3 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/4-pics-3rdThursday.png");
+}
+.sl-img-7 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/SmithPhotoStrip.png");
+}
+
+.sl-img-4 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/4x6/1+pic+center+layout+4X6.png");
+}
+.sl-img-5 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/4x6/1+pic+layout+4X6.png");
+}
+.sl-img-6 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/4x6/3-1+4+pic+layout+4X6.png");
+}
+
+.sl-gradient {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/614007/gradient.png");
+  z-index: 1;
+}
+/*-------------------------------------------------------*/
+/* Card Content
+/*-------------------------------------------------------*/
+
+.sl--content-container {
+  position: absolute;
+  background-color: #ffffff;
+}
+.sl--content-container h2 {
+  text-transform: uppercase;
+}
+.sl--sub-text {
+  font-weight: 300;
+}
+.content-reveal-btn {
+  background-color: #04b7ac;
+}
+.sl--show-card-info,
+.sl--close-card-info {
+  fill: #ffffff;
+}
+.sl--show-card-info {
+  transform: scale(0.6, 0.6);
+  -webkit-transition: transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.sl--close-card-info {
+  -ms-transform: rotate(45deg) scale(0.6, 0.6);
+  -webkit-transform: rotate(45deg) scale(0.6, 0.6);
+  transform: rotate(45deg) scale(0.6, 0.6);
+  -webkit-transition: transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/*--------------------------
+
+     Media Queries 
+
+--------------------------*/
+/*    Mobile    */
+
+@media only screen and (min-width: 320px) {
+  /* 320px */
+
+  #gallery-2x6{
+    padding: 0;
+  }
+  .text-background-4x6{
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .sl-wrapper{
+    overflow: visible;
+    width: 100vw;
+  }
+
+
+  /*-------------------------------------------------------*/
+  /* Prev/Next Slide Cover: 320
+	/*-------------------------------------------------------*/
+  .sl-nav {
+    display: none;
+  }
+  .swiper-slide-prev .slide-cover,
+  .swiper-slide-next .slide-cover,
+  .slide-cover {
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    opacity: 0.75;
+    -webkit-transition: opacity 300ms;
+    transition: opacity 300ms;
+    visibility: visible;
+  }
+  .swiper-slide-active .slide-cover {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: visibility 0s 0.5s, opacity 300ms;
+    transition: visibility 0s 0.5s, opacity 300ms;
+    height: 100%;
+    width: 100%;
+
+    z-index: 2;
+    visibility: hidden;
+  }
+
+  /*-------------------------------------------------------*/
+  /* Swiper: 320
+	/*-------------------------------------------------------*/
+
+  .swiper-4x6{
+    width: 98%;
+  }
+
+  /*   VERY IMPORTANT. CHANGES PHOTO STRIP WIDTH AND CONTENTS ON SMALL SCREENS  */
+  .swiper-container {
+    width: 55%;
+    height: 100%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+  /*-------------------------------------------------------*/
+  /* Card: 320
+	/*-------------------------------------------------------*/
+
+  .sl-card-wrapper {
     position: relative;
     height: 100%;
-   }
+    overflow: hidden;
+  }
+  /*-------------------------------------------------------*/
+  /* Card Bkg Img: 320
+	/*-------------------------------------------------------*/
 
-   #landing-nav{
-    z-index: 3;
-    background-color: #0a3d4d;
-   }
-
- 
-   #main-wrapper{
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Landing/landing-web");
-    height: 65vh;
+  .sl-gradient {
+    background-position: center 210px;
+  }
+  .sl-bkg-img {
     background-size: cover;
-    background-position: center;
-    transition-duration: 0s;
-    background-repeat: no-repeat;
-   }
-
-   #nav-logo{
-  
-
-   }
-   #cta-button{
-    width: 100px;
-    background-color: #d6b074;
-    color: rgb(255, 255, 255);
-    border: #c6c6c6;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    font-size: 16px;
-    line-height: 1.6;
-    border-width: 1px;
-    border-style: none;
-    border-radius: 5px;
-    width: 180px;
-    text-decoration: none;
-    box-shadow: none;
-
-   }
-   #swiper-wrap-1{
-    width: 90vw;
-   }
-   #landing-wrapper{
-    display: flex;
-   }
-   #landing-cta{
-    z-index: 3;
-    background-color: rgba(255, 255, 255, 0.576);
-    font-size: 17px;
-    line-height: 26px;
-    letter-spacing: 1px;
-    text-align: center;
-    position: relative;
-    opacity: 1;
-    transform: translate(0, 0);
-    margin-top: 10%;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top:10px;
-    padding-bottom: 10px;
-    width: inherit;
-    max-height: 800px;
-    margin-left: 5vw;
-   }
-
-   #gallery-wrapper{
-    padding-top: 25px;
+    background-position: center top;
   }
+  /*-------------------------------------------------------*/
+  /* Card Content: 320
+	/*-------------------------------------------------------*/
 
-
-
-
-
-   .swiper-container {
+  .sl--content-wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transition: width 250ms, height 250ms;
+    transition: width 250ms, height 250ms;
+    overflow: hidden;
+  }
+  .sl--content-wrapper-inactive {
+    width: 101%;
+    height: 541px;
+  }
+  .sl--content-wrapper-active {
+    width: 101%;
+    height: 100%;
+  }
+  .sl--content-container {
     width: 100%;
-    height: 60vh;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translate(-90vw, 0px);
-  }
-
-  #landing-wrapper{
-    width: 98vw;
-    height: 700px;
-  }
-
-  .gallery-top {
-
+    height: auto;
+    padding-left: 16px;
+    padding-right: 16px;
     z-index: 1;
   }
-
-
-  .cta-button{
-    background-color: #d6b074;
-    color: #fff;
-    width: auto;
-    padding: 15px;
-    transform: translate(0px, 20px);
+  .sl--card-hide {
+    transform: translate(0, 410px);
+    -webkit-transition: transform 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86),
+      width 250ms;
+    transition: transform 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86),
+      width 250ms;
+    height: 568px;
   }
-    
-  #landing-text{
-    padding-bottom: 2vh;
+  .sl--card-reveal {
+    transform: translate(0, 0);
+    -webkit-transition: transform 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86),
+      width 250ms;
+    transition: transform 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86),
+      width 250ms;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    /*padding: 100px 0px;*/
+    padding-top: 20px;
+    padding-bottom: 100px;
   }
-
-
-
-
-
-
-
-
-  /*
-  .swiper-slide-active .teaserText {
-    animation:mymove 1s ease-out forward;
-    animation-iteration-count:1;
-  
-   Safari and Chrome 
-  -webkit-animation:mymove 1s;
-  -webkit-animation-iteration-count:1;
+  .sl--content-container h2 {
+    font-size: 30px;
+    word-spacing: 2px;
+    letter-spacing: -1.4px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
-  
-  @keyframes mymove
-  { from {top:0px; opacity: 0;}
-  to {top:100px; opacity: 1}
+  .sl--sub-text {
+    margin-bottom: 0;
+    -webkit-transition: margin 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: margin 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
   }
-  
-  @-webkit-keyframes mymove  Safari and Chrome 
-  {
-  from {top:0px; opacity: 0;}
-  to {top:100px; opacity: 1;}
+  .sl--card-reveal .sl--sub-text {
+    margin-top: 12%;
   }
-  */
-
-
-
-  @media only screen and (max-width: 520px) {
-
-    #nav-logo{
-      margin-top: 2vh;
-      width: 30%;
-    }
-
-    #gallery-top{
-        height: 700px
-    }
-
-    #landing-cta{
-        margin-top: 20vh;
-        
-    }
-
-    #gallery-wrapper{
-        padding: 0;
-    }
-
-
-    #landing-nav{
-        height: 0px;
-    }
-
-    .swiper-container{
-        height: 8vh;
-    }
-
-    
+  .sl--content-container .sl--card-content {
+    font-weight: 300;
+    margin-top: 15px;
+    overflow-y: auto;
+  }
+  .sl--link {
+    color: #04b7ac;
+    margin-bottom: 15px;
+  }
+  .sl--card-nav-container {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+    bottom: 0;
+    /*background-color: #ffffff;*/
+    background-image: linear-gradient(0deg, #f5f5f5, hsla(37, 87%, 97%, 0));
+  }
+  .sl--content-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .content-hide-btn {
+    transform: scale(0, 0);
+  }
 }
+@media only screen and (min-width: 375px) {
+  /* 375 */
+  /*-------------------------------------------------------*/
+  /* Card Bkg Img: 375
+	/*-------------------------------------------------------*/
+
+
+  .sl-gradient {
+    background-position: center 300px;
+  }
+
+  /*-------------------------------------------------------*/
+  /* Card Content: 375
+	/*-------------------------------------------------------*/
+
+  .sl-card-wrapper,
+  .sl--content-wrapper-inactive {
+    height: 100%;
+  }
+  .sl--content-wrapper-inactive {
+    width: 91%;
+  }
+  .sl--content-container {
+    height: 372px;
+  }
+  .sl--card-reveal {
+    height: 100%;
+    width: 100%;
+  }
+  .sl--card-hide {
+    transform: translate(0, 465px);
+    height: 667px;
+  }
+  /*@-moz-document url-prefix() {
+		.sl--card-hide {
+			color: red;
+			transform: translate(0, 265px);
+			border: red 5px solid;
+		}
+		
+	}*/
+}
+@media only screen and (min-width: 414px) {
+  /* 414 */
+
+
+  .sl-wrapper{
+    width: 95vw;
+  }
+
+
+
+
+
+  /*-------------------------------------------------------*/
+  /* Card Content: 414
+	/*-------------------------------------------------------*/
+  .sl-card-wrapper,
+  .sl--content-wrapper-inactive {
+    height: 100%
+  }
+  .sl--card-hide {
+    height: 740px;
+    transform: translate(0, 495px);
+  }
+}
+@media only screen and (min-width: 490px) {
+  /* 490 */
+  .sl-wrapper{
+    width: 85vw;
+  }
+}
+@media only screen and (min-width: 528px) {
+  /* 568 */
+  .sl-wrapper{
+    width: 80vw;
+  }
+  .swiper-container {
+    width: 75%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 607px) {
+  /* 667px */
+  .sl-wrapper{
+    width: 75vw;
+  }
+}
+@media only screen and (min-width: 736px) {
+  /* 736px */
+}
+/**********************************    Tablet    ***************************************/
+
+@media only screen and (min-width: 768px) {
+  /* 768*/
+
+
+  .swiper-container{
+    width: 85%;
+  }
+}
+
+
+
+
+/**********************************    Desktop    ***************************************/
 
 @media only screen and (min-width: 1024px) {
 
 
-    #landing-nav{
-        height: 0px;
-    }
-    #landing-nav-wrap{
-      padding-left: 40px;
-      padding-right: 40px;
-      background-color: rgba(255, 255, 255, 0.376);
-    }
+  /*-------------------------------------------------------*/
+  /* Main Wrapper: 1024
+	/*-------------------------------------------------------*/
 
-    #nav-logo{
-      margin-top: 1vh;
-      width: 40%;
-    }
+  .sl-wrapper {
+    width: 70vw;
 
-    #main-wrapper{
-        overflow: hidden;
-        background-position: top;
-    }
-    #landing-cta{
-        margin-top: 20vh;
-        padding-bottom: 50px;
-    }
+  
+  }
+  /*-------------------------------------------------------*/
+  /* SL Main Container: 1024
+	/*-------------------------------------------------------*/
+  .sl-main-container {
+    width: 1024px;
+  }
 
+  /*-------------------------------------------------------*/
+  /* SL Header: 1024
+	/*-------------------------------------------------------*/
+  .sl-header-wrapper {
+    display: inline-block;
+    float: left;
+  }
 
-    .cta-button{
-
-    }
+ 
 
 
+  /*-------------------------------------------------------*/
+  /* Swiper: 1024
+	/*-------------------------------------------------------*/
+  .sl-wrapper {
+    overflow: visible;
+    display: inline-block;
+  }
+
+  .swiper-container {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-80%, -50%);
+    width: 90%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+
+
+  /*-------------------------------------------------------*/
+  /* Prev/Next Slide Cover: 1024
+	/*-------------------------------------------------------*/
+  .sl-nav {
+    display: block;
+  }
+
+}
+@media only screen and (min-width: 1140px) {
+  /* 1140 */
+  .sl-wrapper{
+    width: 50vw;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  /* 1240 */
+  .sl-wrapper{
+    width: 40vw;
+  }
+  .title--intro{
+    font-size: 60px;
+  }
+
+}
+@media only screen and (min-width: 1320px) {
+  /* 1240 */
+  .sl-header-wrapper{
+    width: 60vw;
+  }
+  .title--intro{
+    font-size: 70px;
+  }
+
+}
+@media only screen and (min-width: 1440px) {
+  /* 1440 */
+
+  .sl-wrapper{
+    width: 100vw;
+  }
+  .sl-main-container {
+    width: 1640px;
+   
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+}
+@media only screen and (min-width: 1662px) {
+  /* 1662px */
+  .sl-main-container {
+    width: 2040px;
+   
+  }
 }
