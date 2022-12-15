@@ -489,7 +489,7 @@
                                         </div>
                                         <div class="content">
                                             <h2 class="heading-title" title="Photo Booth Near Me" style="text-align: center;">
-                                                <span class="fl-heading-text">The photo booth experience you've been waiting for</span>
+                                                <span class="fl-heading-text">The photo booth experience you've test waiting for</span>
                                             </h2>
                                         </div>
                                     </section>
@@ -594,10 +594,17 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src='JS/Page Components/strip-swiper.js'></script>
     <script>
-        const videoElement = document.getElementById("promovideo");
-        videoElement.play().then(() => {}).catch((error) => {
-        videoElement.setAttribute("controls","controls"); 
-});
+        $('body').on('click touchstart', function () {
+            const videoElement = document.getElementById('home_video');
+            if (videoElement.playing) {
+                // video is already playing so do nothing
+            }
+            else {
+                // video is not playing
+                // so play video now
+                videoElement.play();
+            }
+    });
     </script>
 
 </body>
