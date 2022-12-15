@@ -485,7 +485,7 @@
                                    
                                     <section class="showcase">
                                         <div class="video-container">
-                                            <video src="https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Videos/landscape-promo-vid1.mp4" autoplay muted loop playsinline>Your browser does not support HTML video.</video>
+                                            <video id="promovideo" src="https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Videos/landscape-promo-vid1.mp4" preload autoplay muted loop playsinline>Your browser does not support HTML video.</video>
                                         </div>
                                         <div class="content">
                                             <h2 class="heading-title" title="Photo Booth Near Me" style="text-align: center;">
@@ -593,6 +593,12 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src='JS/Page Components/strip-swiper.js'></script>
+    <script>
+        const videoElement = document.getElementById("promovideo");
+        videoElement.play().then(() => {}).catch((error) => {
+        videoElement.setAttribute("controls","controls"); 
+});
+    </script>
 
 </body>
 
