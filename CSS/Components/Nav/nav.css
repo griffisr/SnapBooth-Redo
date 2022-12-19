@@ -365,6 +365,8 @@
     display: flex;
   }
   .cta-header{
+    position: relative;
+    z-index: 4;
     height: 50px;
   }
   .cta-tag{
@@ -609,5 +611,10 @@
 
 .content {
 	z-index: 2;
+}
+
+.heading-title{
+    text-align: center;
+    color: #fff;
 }
 
