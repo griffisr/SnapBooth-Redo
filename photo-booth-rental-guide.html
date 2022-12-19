@@ -30,6 +30,7 @@
     <link rel='stylesheet' type="text/css" href='CSS/Components/Swiper Styles/photo-strip-cards.css' media='all' />
     <link rel='stylesheet' type="text/css" href='CSS/Components/Swiper Styles/photo-gallery.css' media='all' />
     <link rel='stylesheet' type="text/css" href='CSS/Components/CTA/cta-banner.css' media='all' />
+    <link rel='stylesheet' type="text/css" href='CSS/Components/Nav/nav.css' media='all' />
 
 
      <!-- Layout -->
@@ -162,8 +163,11 @@
            
             <div class="fl-page">
 
-                <!--Nav Bar-->
-                <app-button id="template-tester"></app-button>
+                <!--Nav Bar
+                <app-button id="template-tester"></app-button>-->
+
+
+
 
 
  <!---------------------------------------------------------START MAIN--------------------------------------------------------------------------------------------------------------------01-->
@@ -177,7 +181,50 @@
                             <!------------------------------Start MAIN CONTENT---------------------------------------- -->
                             <div class="fl-builder-content fl-builder-content-24290 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="24290">
 
-                              <!--*****************************************************************************************-->
+                               
+                                    <!-- CTA-page-bar -->
+                                    <div class="fl-page-bar cta-header">
+                                      <div class="fl-page-bar-container container">
+                                          <div class="fl-page-bar-row row">
+                                              <div class="col-sm-6 col-md-6 text-left clearfix"><div class="fl-page-bar-text fl-page-bar-text-1">Capture laughter and memories with Snap Booth Photos</div></div>			<div class="col-sm-6 col-md-6 text-right clearfix"><div class="fl-page-bar-text fl-page-bar-text-2"><div style="font-size:120%"><strong>Call or TXT: <a href="tel:1-734-707-7794">(734) 707-7794</a></strong></div></div></div>		</div>
+                                      </div>
+                                  </div>
+
+                                          <!-- Navigation -->
+                                <nav class="site-nav js-site-nav" role="navigation" aria-label="navigation">
+
+                                  <div class="site-nav__curtain js-nav-curtain"></div>
+
+                                  <div class="wrapper wrapper--nav-area">
+
+                                      <button class="menu-button js-menu-button" aria-expanded="false"
+                                          aria-controls="menu" aria-label="Menu button">
+                                          
+                                          <span class="menu-button__lines">
+                                              <span class="menu-button__line"></span>
+                                              <span class="menu-button__line"></span>
+                                              <span class="menu-button__line"></span>
+                                          </span>
+                                          
+                                          Menu
+                                          
+                                      </button>
+
+                                      <ul class="site-nav__menu u-list-reset js-menu" id="menu">
+                                          <li><a class="site-nav__link" href="photo-booth-rental-guide.html">Rental Guide</a></li>
+                                          <li><a class="site-nav__link" href="testimonials.html">Testimonials</a></li>
+                                          <li><a class="site-nav__link" href="FAQs.html">FAQs </a></li>
+                                          <li><a class="site-nav__link" href="request-a-quote.html">Request Quote</a></li>
+                                      </ul>
+
+                                      <a class="logo" href="../">
+                                          <img class="logo-img" src="https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Logos/sbpLogo.png">
+                                        
+                                      </a>
+                                  </div>
+                              </nav>
+
+                               <!--*****************************************************************************************-->
                               <!--********************              HEADER TEXT                    ************************-->
                               <!--*****************************************************************************************-->
                               <div class="fl-col-group fl-node-58eb15a01984e" data-node="58eb15a01984e">
@@ -206,6 +253,8 @@
                                   </div>
                                 </div>
                               </div>
+
+                                                               
 
                               <!------------------------------------------------------------------------------------------------------->
                               <!------------------------------------------------------------------------------------------------------->
@@ -619,7 +668,7 @@
 
 
 
-                            <cta-bar></cta-bar>
+                           
 
 
  
@@ -631,7 +680,8 @@
                         </div>
 
 <!------------------------------------------------------START FOOTER--------------------------------------------------------------------------------------------------------------------->
-                                            <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-58eb12e881c57" data-node="58eb12e881c57"><layered-footer></layered-footer></div>
+                                            <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-58eb12e881c57" data-node="58eb12e881c57">
+                                              <cta-bar></cta-bar><layered-footer></layered-footer></div>
 
 <!------------------------------------------------------END FOOTER--------------------------------------------------------------------------------------------------------------------->
 
@@ -674,6 +724,7 @@
 
 
 
+            <script src="JS/Page Components/landing-tester.js"></script>
 
             <script src="JS/Components/cta-bar.js"></script>
             <script src="JS/Components/navBar.js"></script>

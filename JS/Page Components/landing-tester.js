@@ -13,7 +13,7 @@ function mobileNavToggler() {
     menu.classList.remove('fade-out')
     menu.classList.add('fade-in')
   }
-
+ 
   function hideMenu() {
     siteNav.classList.remove('site-nav--is-open')
     menu.classList.remove('fade-in')
