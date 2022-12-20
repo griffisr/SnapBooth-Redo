@@ -1,11 +1,11 @@
 .apply-cta-bar {
-    width: 100%;
+    width: 100vw;
     height: auto;
     position: relative;
   
     background-color: #ececec88;
     color: #001929;
-    padding: 1em 0;
+    padding: 1em .25em 1em .25em;
   }
 
   .cta-btn-wrapper{

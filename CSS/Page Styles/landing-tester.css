@@ -41,12 +41,16 @@ h1, h2 {
 }
 
 h1 {
-    text-align: initial!important;
+    
   font-size: calc(1.2rem + 3vw);
   color: #ffffff!important;
 
+
 }
 
+.title--intro{
+  text-align: initial;
+}
 h2 {
   font-size: calc(1.2rem + 2vw);
 }
@@ -280,6 +284,7 @@ input[type=submit] {
 .title--article {
   margin-bottom: 6rem;
   position: relative;
+  overflow: hidden;
 }
 
 .title--article:after {
@@ -383,6 +388,10 @@ input[type=submit] {
     height: 15px;
     padding-right: 1vw;
 }
+.excerpt__text-wrapper a{
+  font-weight: 800;
+}
+
 
 @media (min-width: 50rem) {
   .excerpt__text-wrapper {
