@@ -63,27 +63,27 @@
     background-repeat: no-repeat;
   }
   .sl-img-1 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/3rdThursday.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/3rdThursday.jpg");
     background-size:auto;
   }
   .sl-img-2 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/Photo+Strip.png");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/Photo+Strip.png");
   }
   .sl-img-3 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/4-pics-3rdThursday.png");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/4-pics-3rdThursday.png");
   }
   .sl-img-7 {
     background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/SmithPhotoStrip.png");
   }
   
   .sl-img-4 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/4x6/1+pic+center+layout+4X6.png");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/4x6/1+pic+center+layout+4X6.png");
   }
   .sl-img-5 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/4x6/1+pic+layout+4X6.png");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/4x6/1+pic+layout+4X6.png");
   }
   .sl-img-6 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Photo+Strips/4x6/3-1+4+pic+layout+4X6.png");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/4x6/3-1+4+pic+layout+4X6.png");
   }
   
   .sl-gradient {

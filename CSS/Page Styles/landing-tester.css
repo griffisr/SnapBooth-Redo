@@ -51,6 +51,9 @@ h1 {
 .title--intro{
   text-align: initial;
 }
+.title--landing{
+  text-align: initial!important;
+}
 h2 {
   font-size: calc(1.2rem + 2vw);
 }
@@ -106,7 +109,7 @@ input[type=submit] {
   position: sticky;
   top: 0;
   left: 0;
-  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Logos/sbpLogo.png");
+  background-image: url("/Images/Logos/sbpLogoLight.png");
   background-color: rgba(234, 234, 234, 0.231);
   border-radius: 7px;
 }
@@ -714,4 +717,7 @@ input[type=submit] {
 .content {
 	z-index: 2;
 }
+
+
+
 

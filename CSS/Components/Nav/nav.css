@@ -43,7 +43,7 @@
   position: sticky;
   top: 0;
   left: 0;
-  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Logos/sbpLogo.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Logos/sbpLogoLight.png");
   background-color: rgba(234, 234, 234, 0.231);
   border-radius: 7px;
 }
