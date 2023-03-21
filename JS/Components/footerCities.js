@@ -109,10 +109,10 @@
                                     <!--Event Type Site Links-->
                                     <h4 title="Photo Booth Near Me">Event Types</h4>
                                     <ul>
-                                      <li><a href="Corporate-Rentals.html" title ="photo booth near me">Corporate Events</a></li>
-                                      <li><a href="Wedding-Rentals.html" title ="photo booth near me">Weddings</a></li>
-                                      <li><a href="Party-Rentals.html" title ="photo booth near me">Parties</a></li>
-                                      <li><a href="Graduation-Rentals.html" title ="photo booth near me">Graduation Parties</a></li>
+                                      <li><a href="../Corporate-Rentals.html" title ="photo booth near me">Corporate Events</a></li>
+                                      <li><a href="../Wedding-Rentals.html" title ="photo booth near me">Weddings</a></li>
+                                      <li><a href="../Party-Rentals.html" title ="photo booth near me">Parties</a></li>
+                                      <li><a href="../Graduation-Rentals.html" title ="photo booth near me">Graduation Parties</a></li>
                                       <li>Charity Functions</li>
                                       <li>Bar &amp; Bat Mitzvahs</li>
                                       <li>School Events &amp; Prom</li>
