@@ -3,7 +3,7 @@
     height: auto;
     position: relative;
   
-    background-color: #ececec88;
+    background-color: #ececec88!important;
     color: #001929;
     padding: 1em .25em 1em .25em;
   }

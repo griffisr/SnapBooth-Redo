@@ -1,0 +1,41 @@
+.timeline-wrapper{
+
+    display: flex;
+    flex-direction: row;
+}
+.timeline-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.timeline-promo-img{
+    border-radius: 50%;
+   
+}
+
+@media(min-width: 700px) {
+
+    .timeline-info{
+
+        max-width: 23vw;
+    }
+
+}
+
+@media(max-width: 700px) {
+    .timeline-wrapper{
+        flex-direction: column-reverse;
+    }
+    .fl-photo-content{
+        width: auto!important;
+    }
+    .timeline-info{
+        justify-content: space-between;
+        align-items: center;
+
+        padding-bottom: 2vh;
+    }
+
+}
