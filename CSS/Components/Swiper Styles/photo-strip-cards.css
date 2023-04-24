@@ -67,14 +67,45 @@ body {
   background-size:auto;
 }
 .sl-img-2 {
-  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/PhotoStrip.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/DZ+Bid+Day.png");
 }
 .sl-img-3 {
   background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/4-pics-3rdThursday.png");
 }
 .sl-img-7 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/Sola.jpg");
+}
+.sl-img-8 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/Spring+Fling.jpg");
+}
+.sl-img-9 {
   background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/SmithPhotoStrip.png");
 }
+.sl-img-10 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/Oktoberfest.jpg");
+}
+
+.sl-img-11 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/Fordie.jpg");
+}
+
+.sl-img-12 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/OX+Formal.jpg");
+}
+
+.sl-img-13 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/PhotoStrip.png");
+}
+
+.sl-img-14 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/Heartfelt+Ball.png");
+}
+
+.sl-img-15 {
+  background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/SCOR+Gale.jpg");
+}
+
+
 
 .sl-img-4 {
   background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/PhotoStrips/4x6/1+pic+center+layout+4X6.png");
