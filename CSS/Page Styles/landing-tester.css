@@ -431,6 +431,7 @@ input[type=submit] {
 
 .site-nav__menu {
   grid-area: menu;
+  z-index: 3;
 }
 
 .site-nav__link {

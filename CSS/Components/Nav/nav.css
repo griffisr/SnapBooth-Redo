@@ -32,6 +32,8 @@
   margin: 0;
 }
 
+
+
 /*
   Logo
 */
@@ -324,6 +326,7 @@
 
 .site-nav__menu {
   grid-area: menu;
+  z-index: 3!important;
 }
 
 .site-nav__link {
