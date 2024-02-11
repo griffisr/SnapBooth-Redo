@@ -148,7 +148,7 @@ width: 60vw;
     background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/GradParty3.jpg");
   }
   .sl-img-3 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Wedding1.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Wedding5.jpg");
   }
   .sl-img-7 {
     background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Corporate9.jpg");
@@ -157,14 +157,14 @@ width: 60vw;
     background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Corporate12.jpg");
   }
   .sl-img-9 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Corporate6.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/School5.jpg");
   }
   .sl-img-10 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Corporate1.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Sola24.jpg");
   }
   
   .sl-img-11 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Corporate8.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/WeddingBride2.jpg");
   }
   
   .sl-img-12 {
@@ -172,30 +172,30 @@ width: 60vw;
   }
   
   .sl-img-13 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Corporate10.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/School4.png");
   }
   
   .sl-img-14 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Wedding2.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Wedding4.jpg");
   }
   
   .sl-img-15 {
     background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Corporate11.jpg");
   }
   .sl-img-16 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/WeddingBride2.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/School1.jpg");
   }
   .sl-img-17 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/WeddingBride3.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Corporate8.jpg");
   }
   .sl-img-18 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Wedding3.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Wedding6.jpg");
   }
   .sl-img-19 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Wedding4.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/WeddingBride3.jpg");
   }
   .sl-img-20 {
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/Wedding5.jpg");
+    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/ExamplePhotoStrips/School2.jpg");
   }
   
   
@@ -823,6 +823,32 @@ width: 60vw;
       }
     
   
+      @media only screen and (max-width: 525px) {
   
+        .why-text{
+          font-size: 15px;
+        }
+        h3{
+          font-size: 20px!important;
+          font-weight: 500!important;
+        }
+        .bottom-email{
+          font-size: 12px;
+
+        }
+
+        .faq-wrapper p {
+          font-size: 12px!important;
+
+        }
+       }
   
- 
+       @media only screen and (max-width: 410px) {
+      
+        .bottom-email{
+
+          font-size: 10px;
+        }
+     
+       }
+  
