@@ -192,7 +192,8 @@
                     var data = {
                       name: name,
                       email: email,
-                      message: message
+                      message: message,
+                      location: 'FAQs'
                     };
         
                     if (name == "" || email == "" || message == "" ) {
@@ -289,7 +290,7 @@
 
 
 
-                <section class="section"> 
+                <section class="section faq-page-section"> 
 
 
 
@@ -382,20 +383,22 @@
   
   
   
-                                      <li>
-                                        <input type="checkbox" checked>
-                                        <i></i>
-                                        <h3 title="Photo Booth Near Me">How many pictures can I take?</h3>
-                                        <p>As many as you like! No really we can handle it no problem.</p>
-                                      </li>
+                                        <li>
+                                          <input type="checkbox" checked>
+                                          <i></i>
+                                          <h3 title="Photo Booth Near Me">Can we personalize each photo with custom messages or overlays?</h3>
+                                          <p>Our photo booths offer customizable options, including adding custom messages, 
+                                            overlays, or logos to each photo. Make each snapshot unique and memorable by personalizing it 
+                                            to match your event theme or brand identity.</p>
+                                        </li>
   
   
                                       <li>
                                         <input type="checkbox" checked>
                                         <i></i>
                                         <h3 title="Photo Booth Near Me">Do you have any other backgrounds?</h3>
-                                        <p>We have an assortment of background ranging from completely white without
-                                          shadows, retro patterns, to modern designs.</p>
+                                        <p>We offer a wide range of background options to suit any event theme or style. From classic solid colors 
+                                          to scenic landscapes and custom designs, you can choose the perfect backdrop to complement your event and enhance your photos.</p>
                                       </li>
   
   
@@ -403,18 +406,11 @@
                                       <li>
                                         <input type="checkbox" checked>
                                         <i></i>
-                                        <h3 title="Photo Booth Near Me">How many people can fit in your photo booth?</h3>
-                                        <p>The number of individuals in the photo booth at one time is limited only by the size of your
-                                          backdrop. Example &#8211; If you choose to use a large brick wall as your backdrop you are only constrained by
-                                          the number of people who can fit into that area. The attendant will make sure everyone is in the
-                                          picture. <br>
-                                          &#9900; 6-foot backdrop 4-8 people average <br>
-                                          &#9900; 8-foot backdrop 6-10 people average<br>
-                                          &#9900; 10-foot backdrop 10-15 people average <br>
-                                          &#9900; 15-foot backdrop 20-30 people average</p>
-                                          
+                                        <h3 title="Photo Booth Near Me">How far in advance should I book a photo booth for my event?</h3>
+                                        <p>It's recommended to book as early as possible to secure your date. Popular dates tend to fill 
+                                          up quickly, so reaching out in advance ensures availability and ample time for customization planning. <a href="http://snapboothphotos.com/request-a-quote.html" title ="photo booth near me">Contact us today for a free quote!</a></p>
                                       </li>
-  
+
                                       <li>
                                         <input type="checkbox" checked>
                                         <i></i>
@@ -448,7 +444,7 @@
                                         <p>Just like a traditional photo booth only it is open on all side and allows for guest to move about, jump,
                                           horseplay, and be wild. The sky is the limit!</p>
   
-                                          <img src="https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Promo/Unused/nonTraditionalSetup.jpg" class="setupImg" alt= "Photo Booth Near Me">
+                                          <img src="https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/BoothSetupPhotos/WeddingBoothPromoSQ2-min.jpg" class="setupImg" alt= "Photo Booth Near Me">
   
                                         </div>
                                         
@@ -472,10 +468,9 @@
                                       <li>
                                         <input type="checkbox" checked>
                                         <i></i>
-                                        <h3 title="Photo Booth Near Me">Can I bring my own banner or sign?</h3>
-                                        <p>Yes. You can, and we highly encourage you to customize the photo booth as much as you like. If
-                                          you are bringing something custom, please let use know so we can help prepare and bring extra mounting
-                                          hardware.</p>
+                                        <h3 title="Photo Booth Near Me">How do I access the digital photo gallery taken during my event?</h3>
+                                        <p>After your event, we provide you with a flash drive containing all the photos captured by the photo booth.
+                                          Simply plug the flash drive into your computer to access and download your images, making it convenient to share and cherish your memories.</p>
                                       </li>
   
   
@@ -600,7 +595,7 @@
 
                           <br>
                           <a href="">
-                            <input id="submit-btn" type="submit" value="Request Quote Now" onclick="submitToAPI(event);"
+                            <input id="submit-btn" type="submit" value="Submit" onclick="submitToAPI(event);"
                               style="width: 100%;">
                           </a>
                           

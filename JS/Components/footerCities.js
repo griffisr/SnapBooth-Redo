@@ -161,18 +161,19 @@
                                       <div class="subShoe">
                                         <p>
                                          <span style="font-size: 14px">
-                                            <a href="photo-booth-ann-arbor.html" title ="photo booth near me">Ann Arbor</a> |
-                                            <a href="photo-booth-milan-mi.html" title ="photo booth near me">Milan</a> |
-                                            <a href="photo-booth-ypsilanti-mi.html" title ="photo booth near me">Ypsilanti</a> |
-                                            <a href="photo-booth-saline-mi.html" title ="photo booth near me">Saline</a> |
-                                            <a href="photo-booth-tecumseh-mi.html" title ="photo booth near me">Tecumseh</a> |
-                                            <a href="photo-booth-adrian-mi.html" title ="photo booth near me">Adrian</a> |
-                                            <a href="photo-booth-novi-mi.html" title ="photo booth near me">Novi</a> |                        
-                                            <a href="photo-booth-chelsea-mi.html" title ="photo booth near me">Chelsea</a> |
-                                            <a href="photo-booth-toledo-oh.html" title ="photo booth near me">Toledo</a> |
-                                            <a href="photo-booth-bryan-oh.html" title ="photo booth near me">Bryan</a> |
-                                            <a href="photo-booth-angola-in.html" title ="photo booth near me" >Angola</a> |
-                                            <a href="photo-booth-fremont-in.html" title ="photo booth near me">Fremont</a> 
+                                         <a href="photo-booth-ann-arbor.html" title ="photo booth near me">Ann Arbor</a> |
+                                         <a href="photo-booth-milan-mi.html" title ="photo booth near me">Milan</a> |
+                                         <a href="photo-booth-ypsilanti-mi.html" title ="photo booth near me">Ypsilanti</a> |
+                                         <a href="photo-booth-saline-mi.html" title ="photo booth near me">Saline</a> |
+                                         <a href="photo-booth-tecumseh-mi.html" title ="photo booth near me">Tecumseh</a> |
+                                         <a href="photo-booth-adrian-mi.html" title ="photo booth near me">Adrian</a> |
+                                         <a href="photo-booth-blissfield-mi.html" title ="photo booth near me">Blissfield</a> |                        
+                                         <a href="photo-booth-clinton-mi.html" title ="photo booth near me">Clinton</a> |
+                                         <a href="photo-booth-toledo-oh.html" title ="photo booth near me">Toledo</a> |
+                                         <a href="photo-booth-bryan-oh.html" title ="photo booth near me">Bryan</a> |
+                                         <a href="photo-booth-hudson-mi.html" title ="photo booth near me">Hudson</a> |
+                                         <a href="photo-booth-manchester-mi.html" title ="photo booth near me">Manchester</a> |
+                                         <a href="photo-booth-morenci-mi.html" title ="photo booth near me">Morenci</a>
                                           </span>
                                         </p>
                                       </div>

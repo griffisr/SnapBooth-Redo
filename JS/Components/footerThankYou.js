@@ -164,12 +164,13 @@
                                         <a href="../Cities/photo-booth-saline-mi.html" title ="photo booth near me">Saline</a> |
                                         <a href="../Cities/photo-booth-tecumseh-mi.html" title ="photo booth near me">Tecumseh</a> |
                                         <a href="../Cities/photo-booth-adrian-mi.html" title ="photo booth near me">Adrian</a> |
-                                        <a href="../Cities/photo-booth-novi-mi.html" title ="photo booth near me">Novi</a> |                        
-                                        <a href="../Cities/photo-booth-chelsea-mi.html" title ="photo booth near me">Chelsea</a> |
+                                        <a href="../Cities/photo-booth-blissfield-mi.html" title ="photo booth near me">Blissfield</a> |                        
+                                        <a href="../Cities/photo-booth-clinton-mi.html" title ="photo booth near me">Clinton</a> |
                                         <a href="../Cities/photo-booth-toledo-oh.html" title ="photo booth near me">Toledo</a> |
                                         <a href="../Cities/photo-booth-bryan-oh.html" title ="photo booth near me">Bryan</a> |
-                                        <a href="../Cities/photo-booth-angola-in.html" title ="photo booth near me">Angola</a> |
-                                        <a href="../Cities/photo-booth-fremont-in.html" title ="photo booth near me">Fremont</a> 
+                                        <a href="../Cities/photo-booth-hudson-mi.html" title ="photo booth near me">Hudson</a> |
+                                        <a href="../Cities/photo-booth-manchester-mi.html" title ="photo booth near me">Manchester</a> |
+                                        <a href="../Cities/photo-booth-morenci-mi.html" title ="photo booth near me">Morenci</a>
                                       </span>
                                         </p>
                                       </div>
