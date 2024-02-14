@@ -161,12 +161,12 @@
                                       <div class="subShoe">
                                         <p>
                                          <span style="font-size: 14px">
+                                         <a href="photo-booth-adrian-mi.html" title ="photo booth near me">Adrian</a> |
                                          <a href="photo-booth-ann-arbor.html" title ="photo booth near me">Ann Arbor</a> |
                                          <a href="photo-booth-milan-mi.html" title ="photo booth near me">Milan</a> |
                                          <a href="photo-booth-ypsilanti-mi.html" title ="photo booth near me">Ypsilanti</a> |
                                          <a href="photo-booth-saline-mi.html" title ="photo booth near me">Saline</a> |
                                          <a href="photo-booth-tecumseh-mi.html" title ="photo booth near me">Tecumseh</a> |
-                                         <a href="photo-booth-adrian-mi.html" title ="photo booth near me">Adrian</a> |
                                          <a href="photo-booth-blissfield-mi.html" title ="photo booth near me">Blissfield</a> |                        
                                          <a href="photo-booth-clinton-mi.html" title ="photo booth near me">Clinton</a> |
                                          <a href="photo-booth-toledo-oh.html" title ="photo booth near me">Toledo</a> |
