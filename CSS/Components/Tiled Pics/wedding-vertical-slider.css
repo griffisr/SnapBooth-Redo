@@ -1,18 +1,22 @@
 
   .main-wrapper{
     flex-direction: row;
+    align-content: space-between;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/BoothSetupPhotos/Vertical-Photo-Promo-Wedding/flowers-light.png");
-   background-size: contain;
+    background-size: contain;
+    margin: 0 auto;
+    height: 100%;
   }
+
   .gallery {
     display: flex;
     gap: 1vw;
     max-width: 1200px;
     min-width: 350px;
     height: 50vh;
-    transform: translate(-34%) rotate(-6deg) rotateX(10deg) rotateY(20deg);
+
   }
   
   .gallery_line {
@@ -36,13 +40,11 @@
   
 .text-background{
     overflow-wrap: break-word;
-    background-color: rgba(0, 0, 0, 0.614);
+    background-color: rgba(0, 0, 0, 0.758);
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 1px;
     position: relative;
-    max-height: 1200px;
-    max-width: 60%;
     opacity: 1;
     transform: translate(0, 0);
     z-index: 3!important;
@@ -51,6 +53,12 @@
     padding: 5px 25px 25px 25px;
     -webkit-transform:translateZ(x);
     -webkit-transform: translate3d(0,0,0);
+
+    max-height: 1200px;
+    max-width: 100%;
+
+    min-width: 30vw;
+    padding: 10px 20px 2vh 20px;
   }
   .title--wedding-strips{
     color: #ffffff;
@@ -68,9 +76,9 @@
   @media (max-width: 450px) {
   
     .main-wrapper{
-        flex-direction: row-reverse;
+        /*flex-direction: row-reverse; */
     }
-    .text-background{
+   /* .text-background{
         margin-left: -95vw;
         max-width: 90vw;
         margin-top: 10vh;
@@ -80,6 +88,180 @@
     .gallery{
         gap: 5vw;
         transform: translate(-14%) rotate(-6deg) rotateX(10deg) rotateY(20deg);
+    } */
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /*******************Swiper styles******************************/
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    /*Removing touch highlights on smartphones*/
+  
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding-top: 0;
+    font-family: "Rubik", sans-serif;
+  }
+
+  /*main div for content*/
+  .fl-node-58e9c078da856{
+    height: 100%;
+  }
+
+  /*wrapper for text background*/
+  .sl-main-container{
+    width: 100vw;
+    z-index: 3;
+  }
+
+ 
+
+  
+ 
+  /*--------------------------
+  
+       Media Queries 
+  
+  --------------------------*/
+  /*    Mobile    */
+  
+  @media only screen and (min-width: 320px) {
+    /* 320px */
+    .title--intro{
+        font-size: 35px;
+      }
+  
+
+  
+   
+   
+ 
+
+  }
+  @media only screen and (min-width: 375px) {
+    .title--intro{
+        font-size: 40px;
+      }
+    
+  }
+
+
+
+
+  @media only screen and (max-width: 414px) {
+    .gallery{
+        transform: translate(-85%) rotate(-6deg) rotateX(10deg) rotateY(20deg);
+
     }
+  }
+
+  @media only screen and (max-width: 490px) and (min-width: 415px) {
+    .gallery{
+        transform: translate(-65%) rotate(-6deg) rotateX(10deg) rotateY(20deg); 
+
+    }
+  }
+
+
+  @media only screen and (min-width: 490px) {
+    .title--intro{
+        font-size: 55px;
+      }
+  
+  }
+
+  @media only screen and (max-width: 760px) and (min-width: 490px) {
+    .gallery{
+        transform: translate(-50%) rotate(-6deg) rotateX(10deg) rotateY(20deg); 
+
+    }
+  }
+  @media only screen and (min-width: 528px) {
+
+
+ 
+  }
+  @media only screen and (min-width: 607px) {
+
+  }
+  @media only screen and (min-width: 736px) {
+   
+  }
+
+
+  /**********************************    Tablet    ***************************************/
+
+  @media only screen and (max-width: 1024px) and (min-width: 760px) {
+    .gallery{
+        transform: translate(-45%) rotate(-6deg) rotateX(10deg) rotateY(20deg); 
+
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .title--intro{
+        font-size: 60px;
+      }
+
+  }
+  
+  
+  
+  
+  /**********************************    Desktop    ***************************************/
+  
+  @media only screen and (min-width: 1024px) {
+  .gallery{
+    transform: translate(-15%) rotate(-6deg) rotateX(10deg) rotateY(20deg);
+  }
+
+  
+ 
+    .title--intro{
+        font-size: 70px;
+      }
+
+
+
+   
+  
+      
+  
+  }
+  @media only screen and (min-width: 1140px) {
+    /* 1140 */
+    
+  }
+  @media only screen and (min-width: 1240px) {
+
+        /* 1240 */
+          .title--intro{
+            font-size: 70px;
+          }
+  
+  }
+  @media only screen and (min-width: 1320px) {
+
+  
+  }
+  @media only screen and (min-width: 1440px) {
+ 
+
+    
+  
+  }
+  @media only screen and (min-width: 1662px) {
+
   }
   
