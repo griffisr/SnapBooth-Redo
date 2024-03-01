@@ -1,10 +1,10 @@
 
   .main-wrapper{
-    flex-direction: row;
+    display: flow-root;
     align-content: space-between;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/BoothSetupPhotos/Vertical-Photo-Promo-Wedding/flowers-light.png");
+   /* background-image: url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/BoothSetupPhotos/Vertical-Photo-Promo-Wedding/flowers-light.png");*/
     background-size: contain;
     margin: 0 auto;
     height: 100%;
@@ -13,10 +13,10 @@
   .gallery {
     display: flex;
     gap: 1vw;
-    max-width: 1200px;
+    max-width: 99vw;
     min-width: 350px;
     height: 50vh;
-
+  /*  transform: translate(15%) rotate(-6deg) rotateX(10deg) rotateY(20deg) scale(100px); */
   }
   
   .gallery_line {
@@ -39,30 +39,38 @@
   }
   
 .text-background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     overflow-wrap: break-word;
-    background-color: rgba(0, 0, 0, 0.758);
+    background-color: rgba(0, 0, 0, 0.678);
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 1px;
     position: relative;
     opacity: 1;
-    transform: translate(0, 0);
     z-index: 3!important;
-    margin-top: 5vh;
-    margin-left: 2vw;
+    margin: 0 2vw 0 2vw;
     padding: 5px 25px 25px 25px;
     -webkit-transform:translateZ(x);
     -webkit-transform: translate3d(0,0,0);
+    transform: translateY(-30vh);
 
     max-height: 1200px;
-    max-width: 100%;
 
-    min-width: 30vw;
+    min-width: 60vw;
     padding: 10px 20px 2vh 20px;
+
+   
   }
   .title--wedding-strips{
     color: #ffffff;
-    text-align: left!important;
+    text-align: center!important;
+
+  }
+  .cal-btn{
+    text-align: center;
+    width: 35%;
   }
   
 
@@ -121,6 +129,9 @@
 
   /*wrapper for text background*/
   .sl-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     z-index: 3;
   }
@@ -159,19 +170,11 @@
 
 
 
-  @media only screen and (max-width: 414px) {
-    .gallery{
-        transform: translate(-85%) rotate(-6deg) rotateX(10deg) rotateY(20deg);
+  @media only screen and (min-width: 414px) {
 
-    }
   }
 
-  @media only screen and (max-width: 490px) and (min-width: 415px) {
-    .gallery{
-        transform: translate(-65%) rotate(-6deg) rotateX(10deg) rotateY(20deg); 
 
-    }
-  }
 
 
   @media only screen and (min-width: 490px) {
@@ -181,12 +184,7 @@
   
   }
 
-  @media only screen and (max-width: 760px) and (min-width: 490px) {
-    .gallery{
-        transform: translate(-50%) rotate(-6deg) rotateX(10deg) rotateY(20deg); 
 
-    }
-  }
   @media only screen and (min-width: 528px) {
 
 
@@ -202,11 +200,32 @@
 
   /**********************************    Tablet    ***************************************/
 
-  @media only screen and (max-width: 1024px) and (min-width: 760px) {
-    .gallery{
-        transform: translate(-45%) rotate(-6deg) rotateX(10deg) rotateY(20deg); 
+  @media only screen and (max-width: 768px) {
+    .text-background{
+       
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    position: relative;
+    opacity: 1;
+
+    margin-left: 2vw;
+    padding: 5px 25px 25px 25px;
+    -webkit-transform:translateZ(x);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translateY(-30vh);
+
+    max-height: 1200px;
+
+    min-width: 80vw;
+    padding: 10px 20px 2vh 20px;
 
     }
+    .cal-btn{
+        text-align: center;
+        width: 65%;
+      }
+
   }
   
   @media only screen and (min-width: 768px) {
@@ -222,9 +241,6 @@
   /**********************************    Desktop    ***************************************/
   
   @media only screen and (min-width: 1024px) {
-  .gallery{
-    transform: translate(-15%) rotate(-6deg) rotateX(10deg) rotateY(20deg);
-  }
 
   
  
