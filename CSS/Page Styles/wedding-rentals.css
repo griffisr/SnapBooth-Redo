@@ -55,10 +55,66 @@
 
 
 
+/*---------Timeline Why Steps Section*/
 
 
 
+.timeline-step{
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 2rem 0;
+}
+.timeline-txt{
+  width: 60vw;
+  max-width: 50%;
 
+}
+.timeline-img{
+  width:50%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.step-number{
+  position: absolute;
+  background-color: #a299c5;
+  border-radius: 50%;
+  padding: 8px;
+  border: 1px solid #6b4f9a;
+  color: white;
+  text-align: center;
+  font: 12px;
+}
+.step-number-digit{
+
+}
+.step-numberText{
+  margin-left: 80px; 
+}
+
+.timeline-img img{
+  border-radius: 8px;
+  border: 2px solid #c59999;
+  padding: 5px;
+}
+
+.timeline-img img {
+max-width: 100%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+  .step-numberText{
+      margin: 0 0 0 8vw ;
+  }
+
+
+}
 
 
 
