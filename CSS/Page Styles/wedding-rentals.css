@@ -55,8 +55,11 @@
 
 
 /*---------Timeline Why Steps Section*/
-
+.large-paragraph{
+  font-size: 1.3em;
+}
 .timeline-intro{
+  text-align: center;
   margin: 0 20px 0 20px!important;
 }
 .section--timeline{
@@ -71,11 +74,7 @@
   flex-direction: row;
   margin: 0 0 2rem 0;
 }
-.timeline-txt{
-  width: 60vw;
-  max-width: 50%;
 
-}
 .timeline-img{
   width:50%;
 
@@ -115,7 +114,17 @@ width: auto;
 }
 
 
+@media only screen and (min-width: 1024px) {
 
+  .timeline-img{
+    justify-content: flex-end;
+  }
+  .step-numberText{
+    font-size: 19px;
+
+  }
+
+}
 
 @media only screen and (min-width: 768px) {
   .mobile-img{
@@ -125,11 +134,19 @@ width: auto;
     margin: 0 10px 0 10px;
   }
 
+  .timeline-txt{
+    width: 60vw;
+  
+  }
+
+  .timeline-img img{
+    max-width: 35vw;
+  }
+
 }
   
   
 @media only screen and (max-width: 768px) {
-  
   .timeline{
     margin: 0 0 0 10px;
   }
@@ -404,24 +421,7 @@ width: auto;
   ". text .";
 }
 
-@media (min-width: 50rem) {
-  .excerpt {
-    grid-template-columns: 3rem 1fr calc(2rem + 5%) 1fr 3rem;
-    grid-template-areas:
-    "image image . text .";
-  }
 
-  .excerpt--reverse {
-    justify-items: stretch;
-    grid-template-areas:
-    ". text . image image";
-  }
-  /*changes <p> in the article sections*/
- .section p{
-    line-height: 2.5rem;
-    font-size: 22px;
-  }
-}
 
 
 
