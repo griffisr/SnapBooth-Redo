@@ -37,7 +37,6 @@
 
 .overlay--intro {
   background-image: url("");
-  background-color: #8D9FA9;
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -57,7 +56,15 @@
 
 /*---------Timeline Why Steps Section*/
 
-
+.timeline-intro{
+  margin: 0 20px 0 20px!important;
+}
+.section--timeline{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .timeline-step{
   display: flex;
@@ -77,12 +84,13 @@
   justify-content: center;
 }
 
+
 .step-number{
   position: absolute;
-  background-color: #a299c5;
+  background-color: #8D9FA9;
   border-radius: 50%;
   padding: 8px;
-  border: 1px solid #6b4f9a;
+  border: 1px solid #ffffff;
   color: white;
   text-align: center;
   font: 12px;
@@ -91,27 +99,77 @@
 
 }
 .step-numberText{
-  margin-left: 80px; 
+  margin-left: 50px; 
 }
 
 .timeline-img img{
   border-radius: 8px;
-  border: 2px solid #c59999;
-  padding: 5px;
+  border: 2px solid #8D9FA9;
+  padding: 3px;
 }
 
 .timeline-img img {
 max-width: 100%;
+height: max-content;
+width: auto;
 }
 
 
 
+
+@media only screen and (min-width: 768px) {
+  .mobile-img{
+    display: none!important; 
+  }
+  .timeline{
+    margin: 0 10px 0 10px;
+  }
+
+}
+  
+  
 @media only screen and (max-width: 768px) {
+  
+  .timeline{
+    margin: 0 0 0 10px;
+  }
+  .promo2{
+    max-height: 30vh;
+  }
 
-
+  .timeline-step{
+    margin: 0 0 4rem 0;
+  }
   .step-numberText{
       margin: 0 0 0 8vw ;
   }
+  .timeline-txt{
+    width: 60vw;
+    max-width: 40%;
+  
+  }
+  .step-numberText{
+    margin: 50px 0 0 0px;
+  }
+  .timeline-img{
+    width:60%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1vw 0 1vw;
+
+  }
+
+  .timeline-img img{
+    height: 100%;
+    max-width: 60vw;
+    margin-bottom: 5px;
+  }
+  .mobile-img{
+    display: contents;
+  }
+
 
 
 }
@@ -197,7 +255,7 @@ max-width: 100%;
 */
 
 .section {
-  padding: 6rem 0;
+  padding: 0 0;
   overflow-x: hidden;
 /*background-color: #6869611f; */
 }
