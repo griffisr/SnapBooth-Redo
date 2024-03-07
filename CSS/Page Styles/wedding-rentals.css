@@ -25,7 +25,8 @@
   height: 1px;
   background-color: #002A44;
   margin: 2rem auto 0;
-}
+} 
+
 /*
   Overlay
 */
@@ -56,10 +57,12 @@
 
 /*---------Timeline Why Steps Section*/
 .large-paragraph{
+  max-height: 800px;
+  color: rgba(48,69,92,0.8);
   font-size: 1.3em;
 }
 .timeline-intro{
-  text-align: center;
+  text-align: left;
   margin: 0 20px 0 20px!important;
 }
 .section--timeline{
