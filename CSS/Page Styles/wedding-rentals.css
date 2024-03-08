@@ -300,6 +300,72 @@ p{
 
 
 
+#hero1{
+  background:url("https://s3.us-east-2.amazonaws.com/snapboothphotos.com/Images/Promo/WeddingPromo(sq).png");
+   background-size:cover;
+   background-position: 25% 25%;
+   background-attachment:local;
+ }
+
+
+
+
+ .hero, .content{
+  text-align:center; 
+  position:relative;
+  width: 100%;
+}
+
+.inner{
+  min-height:600px;
+  position: relative;
+}
+
+.hero .inner{
+  background: rgba(0,0,0,0.6) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;}
+
+
+.copy{
+  position:absolute; 
+  top:50%; 
+  height:10em; 
+  margin-top:-5em; 
+  width:100%;
+}
+
+.hero h2{ 
+  color:#fff;
+  margin:0px;
+  font-weight:400;
+  font-size:32px;
+  padding:0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**---------------------NAV-------------***/
 
