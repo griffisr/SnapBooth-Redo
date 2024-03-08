@@ -208,6 +208,13 @@ p{
 
 @media screen and (min-width: 561px){
 
+  .rental-steps-header{
+    margin-bottom: 3vh;
+  }
+  .tab-content{
+    max-height: 60vh;
+  }
+
   .promo2{
     max-height: 40vh;
   }
